@@ -9,7 +9,7 @@
 > **框架角色**: AI协作项目全生命周期框架 v1.5.1 的 Protocol 3（首次真实试跑）
 > **闭合后维护**: 2026-07-23 语料从12扩展至19（后增至22），2026-07-24 经GPT-5.6-Sol两轮异后端审查修复19+3项发现。本 CLAUDE.md 中的 v1.5.1 引用为闭合时刻的历史快照。
 > **项目规模**: M-tier（~1周，≤20 loops；已用15 loops）
-> **已执行审查**: 10 轮正式审查（HG-0 Codex 7.2 / Phase2 Kimi 5.9 / Phase3 Codex 6.2 / Phase4 Qwen 5.5 / Phase5 Codex 6.1 / Phase5 Qwen 6.3 / Phase6 Kimi事实核查 / Phase7 Qwen 终期闭合 6.8 / Phase7.5 GLM-5 方法论价值 5.8 / Phase7.6 Codex 实用完整性 7.7 GO ✅）+ 1 次异后端复编码（Phase 3.5 Codex复编码）
+> **已执行审查**: 多轮正式审查（HG-0 Codex 7.2 / Phase2 Kimi 5.9 / Phase3 Codex 6.2 / Phase4 Qwen 5.5 / Phase5 Codex 6.1 / Phase5 Qwen 6.3 / Phase6 Kimi事实核查 / Phase7 Qwen 终期闭合 6.8 / Phase7.5 GLM-5 方法论价值 5.8 / Phase7.6 Codex 实用完整性 7.7 GO ✅ / P3 Kimi 闭合后验证），另有 R1-R2 (GPT-5.6-Sol) 元审查 + 1 次异后端复编码（Phase 3.5）。完整清单见 DEV_LOG 审查 Manifest
 
 ---
 
