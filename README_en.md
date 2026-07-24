@@ -189,18 +189,10 @@ The project's central claim—that independent multi-model review is effective�
 
 This project served as the Protocol 3 trial run for v1.5.1 of the [AI Collaboration Full-Lifecycle Framework](https://github.com/redamancy231-create/ai-collaboration-framework). The parent framework has since evolved to later versions. This project is a historical snapshot from the point of closure, and some version references may be outdated.
 
+
 ## Related Projects
 
-| Project | Relationship |
-|---------|--------------|
-| [**AI Collaboration Framework**](https://github.com/redamancy231-create/ai-collaboration-framework) | **Methodology upstream** — This project served as the trial run for the framework's Protocol 3 |
-| [**claude-skills**](https://github.com/redamancy231-create/claude-skills) | **Methodology literature source** — Extraction results from three Skills have been incorporated into this framework (evidence card #11) |
-| [**Independent Review Toolkit**](https://github.com/redamancy231-create/independent-review-toolkit) | **Review methodology source** — This project's independent review process uses the toolkit's SOP |
-| [**Prompt-TDD Methodology**](https://github.com/redamancy231-create/prompt-tdd-methodology) | **Related project** — A casebook on controlled-experiment methodology that shares empirical evidence from multi-backend review |
-| [**Methodology Handbook**](https://github.com/redamancy231-create/methodology-handbook) | **Related project** — A quick reference of 50 practical lessons from AI collaboration and an empirical source for the Skill design protocol |
-| [**DOCX Pipeline**](https://github.com/redamancy231-create/docx-pipeline) | **Related project** — A Markdown → Chinese DOCX pipeline and one methodology source for the extraction framework |
-| [**ETF Pattern Match — pybind11**](https://github.com/redamancy231-create/etf-pattern-match-pybind11) | **Related project** — C++20/pybind11 quantitative acceleration and an empirical source for the review chain |
-| [**M&A Case Study Pipeline**](https://github.com/redamancy231-create/ma-case-study-pipeline) | **Related project** — An eight-stage, multi-model academic production pipeline and source project for an evidence card |
+See more projects at [profile](https://github.com/redamancy231-create/redamancy231-create)
 
 ## Related Files
 
