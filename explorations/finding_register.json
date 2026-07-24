@@ -1,0 +1,1012 @@
+{
+  "findings": [
+    {
+      "finding_id": "F001",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "缺少跨项目归纳所需的最小可追溯证据包协议",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F002",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "缺少统一证据卡模板及A/B/C/D证据等级",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F003",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "Phase 4进入条件过低，存在少数项目过拟合风险",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F004",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "项目B未作为活跃边界案例降权处理",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F005",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "独立审查评分红线过低，无法形成有效门禁",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F006",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "C1 Prompt写作时间指标需要修订",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F007",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "C3 Dev Log遗漏率指标需要修订",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F008",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "C5框架维护耗时占比指标需要修订",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F009",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "C8独立审查完成指标需要修订",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F010",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "应新增证据卡不足不得进入Phase 4的红线",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F011",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "稳定框架组件应要求至少3个项目证据",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F012",
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "应新增证据不足停止条件并硬化Phase 6边界",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F013",
+      "review_id": "R02",
+      "phase": "Phase 2",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "格式演进轨迹大体成立，但项目L、项目P及六步闭环标签失真",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F014",
+      "review_id": "R02",
+      "phase": "Phase 2",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "四个跨批共同模式证据偏薄，替代解释和反例排除不足",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F015",
+      "review_id": "R02",
+      "phase": "Phase 2",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "Batch差异受时间顺序和模板扩散混杂，领域二分过强",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F016",
+      "review_id": "R02",
+      "phase": "Phase 2",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "“医生的孩子没人治”混淆迁移提取与项目自文档化维度",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F017",
+      "review_id": "R02",
+      "phase": "Phase 2",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "CRITICAL",
+      "description": "AI自提取自评分且无人类复核，形成全局地基风险",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F018",
+      "review_id": "R03",
+      "phase": "Phase 3",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "共同元素中混淆工作流强制与方法论自然收敛",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F019",
+      "review_id": "R03",
+      "phase": "Phase 3",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "10/11项标为MUST过重，缺少核心、Gate与可选分层",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F020",
+      "review_id": "R03",
+      "phase": "Phase 3",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "独有特征严重膨胀，跨项目重复被误报为独有",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F021",
+      "review_id": "R03",
+      "phase": "Phase 3",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "格式演进分析缺少产物类型和提取目标两个维度",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F022",
+      "review_id": "R03",
+      "phase": "Phase 3",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "单一后端编码未量化提取者效应",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F023",
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen",
+      "severity": "CRITICAL",
+      "description": "Phase 4对抗验证与Judge Panel产出未持久化，无法审计",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F024",
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen",
+      "severity": "CRITICAL",
+      "description": "同源17 agent不构成独立验证，需异后端复验证子集",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F025",
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "框架吸收反馈循环与膨胀修正振荡两个候选模式未验证",
+      "disposition": "deferred",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F026",
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "未记录17个agent间分歧及Judge Panel裁决依据",
+      "disposition": "accepted_risk",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F027",
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen",
+      "severity": "MINOR",
+      "description": "建议对全部8个模式执行异后端复验证",
+      "disposition": "deferred",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F028",
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen",
+      "severity": "MINOR",
+      "description": "建议将先膨胀再自我纠偏识别为正式元模式",
+      "disposition": "deferred",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F029",
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen",
+      "severity": "MINOR",
+      "description": "建议重新评估P6从A级降至B级是否矫枉过正",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F030",
+      "review_id": "R05",
+      "phase": "Phase 4.5",
+      "backend": "Qwen",
+      "severity": "MODERATE",
+      "description": "P5显著分歧多由规范模糊造成，纯提取者效应约9.4%",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F031",
+      "review_id": "R05",
+      "phase": "Phase 4.5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "P6核心洞见证据强于原裁决，应由B升级为A-",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F032",
+      "review_id": "R05",
+      "phase": "Phase 4.5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "P7无反相关案例且隐喻不适用于AI场景，应维持拒绝",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F033",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "“12个闭合或归档项目”错误包含搁置和活跃项目",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F034",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "“5轮审查”实际为4轮审查加1轮复编码",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F035",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "声称已回写Retrospect，但该阶段尚未执行",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F036",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "Phase 6未执行却被列入框架总览",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F037",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "P5/P6强度分级在正文与目录间不一致",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F038",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "决策矩阵与P1稳定性标签冲突",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F039",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "60/25/15比例无来源且含P3事后偏误",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F040",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "SOP要求审查但项目文档已标记完成",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F041",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "框架未记录agent级分歧",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F042",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "项目就绪度与证据卡记录不一致",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F043",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "P6核心比较证据为零却按一般规则表述",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F044",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "P5以n=2单模型对泛化为模型特性",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F045",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MAJOR",
+      "description": "升级条件遗漏反例与偏误控制要求",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F046",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "CLAUDE.md行数阈值前后冲突",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F047",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "模式模板枚举未包含A-和B-",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F048",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "附录A与正文的试行协议定义不一致",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F049",
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "severity": "MINOR",
+      "description": "用N=1试跑推断同类项目预期",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F050",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "P6采用标准模式“操作化”结构，冲淡[I]级流程规则语义",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F051",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MINOR",
+      "description": "[E]标签写成“建议应用”，对试验性证据构成软性越界",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F052",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MINOR",
+      "description": "“必须触发独立审查”与[I]级试行规则存在语义张力",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F053",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "模式强度与稳定性标签两套分类的映射和优先级未解释",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F054",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "三级分流与四阶段提取流水线的接口和时机未定义",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F055",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "模式验证、决策矩阵与预填强度值之间引用链含歧义",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F056",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "独立审查结果缺少回写采纳矩阵和模式目录的反馈路径",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F057",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "证据卡rubric与提取就绪度两套评估体系缺冲突规则",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F058",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "项目关闭时通常无法获得跨项目证据，分流退化为事后重分类",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F059",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "项目筛选阶段预判可迁移片段数量，形成循环依赖",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F060",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "全文缺少适配2小时预算的最小可行执行路径",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F061",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "Premise Gate在前提被明确但错误时可能产生假阴性",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F062",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "多后端可能共享上游prompt与资料偏差，不能保证认知独立",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F063",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MINOR",
+      "description": "事前归档仍不能消除对记录内容的后见偏误",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F064",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "P5风险并非常量，不同编码维度的提取者效应差异显著",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F065",
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen",
+      "severity": "MAJOR",
+      "description": "双轴审查模板遗漏跨项目推论错误这一组合盲点",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F066",
+      "review_id": "R08",
+      "phase": "Phase 6",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "“六维偏置审查”与源报告实际五个维度不符",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F067",
+      "review_id": "R08",
+      "phase": "Phase 6",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MINOR",
+      "description": "冷读prompt chain第2步误归因具体偏置类型",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F068",
+      "review_id": "R08",
+      "phase": "Phase 6",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "把显式设计的角色分离过度定性为计划外涌现",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F069",
+      "review_id": "R08",
+      "phase": "Phase 6",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "“12个源项目审查均为时间截面”的全称声称不成立",
+      "disposition": "fixed",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F070",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MAJOR",
+      "description": "DEV_LOG Loop汇总10与Protocol 3的C7值9不一致",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F071",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MAJOR",
+      "description": "模式目录md、json与框架正文的P5/P6强度不一致",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F072",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MAJOR",
+      "description": "框架header仍称待审初稿，与两轮审查已修正状态不符",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F073",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MAJOR",
+      "description": "HG-1人工过目缺少可验证的响应时间和交互记录",
+      "disposition": "accepted_risk",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F074",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MAJOR",
+      "description": "Phase 3 Codex审查报告缺失，评分与修复无法独立验证",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F075",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MINOR",
+      "description": "审查驱动更新未回写独立模式目录文件",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F076",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MINOR",
+      "description": "CLAUDE.md审查红线未同步project_spec分级规则",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F077",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MINOR",
+      "description": "DEV_LOG的C3阈值未拆分并与冻结指标不一致",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F078",
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3-Max",
+      "severity": "MINOR",
+      "description": "33与37项审查发现的统计口径未显式说明",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F079",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "CRITICAL",
+      "description": "除审查SOP外多为既有最佳实践重组，原创性声称过强",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F080",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "MAJOR",
+      "description": "关键操作环节缺少客观判定标准，独立复现性不足",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F081",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "MAJOR",
+      "description": "多条执行路径未列明证据、审查与否定者等前提条件",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F082",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "MAJOR",
+      "description": "P6以零核心源项目证据获A-，判定主观性较强",
+      "disposition": "accepted_risk",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F083",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "MAJOR",
+      "description": "未讨论12个AI协作项目的样本选择偏差与代表性",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F084",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "MINOR",
+      "description": "未评估12张证据卡自身的质量差异",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F085",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "MINOR",
+      "description": "未明确框架是方法论创新还是实践系统化总结",
+      "disposition": "fixed",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F086",
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "severity": "MINOR",
+      "description": "升级路径证据门槛高，时间成本可能被低估",
+      "disposition": "accepted_risk",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F087",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MAJOR",
+      "description": "证据卡rubric与正式评分rubric不一致，影响2小时路径填表",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F088",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MAJOR",
+      "description": "C/D证据等级边界定义与三步判定流程冲突",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F089",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MAJOR",
+      "description": "LEVEL 3跨项目证据门槛存在两套标准",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F090",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MAJOR",
+      "description": "缺少从项目文件到三个方法论片段的完整2小时样例卡",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F091",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MINOR",
+      "description": "未定义文本段落、bullet和表格行的片段计数单位",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F092",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MINOR",
+      "description": "未定义两个否定者的后端与会话独立性标准",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F093",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MINOR",
+      "description": "审查输出类型缺少跨项目推论错误",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F094",
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5",
+      "severity": "MINOR",
+      "description": "2小时路径缺少各阶段时间盒分配",
+      "disposition": "deferred",
+      "counted_in_total": true
+    },
+    {
+      "finding_id": "F095",
+      "review_id": "R12",
+      "phase": "Phase 8",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MODERATE",
+      "description": "Retrospect写C7为13/20，但汇总及关闭条目为14/20",
+      "disposition": "deferred",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F096",
+      "review_id": "R12",
+      "phase": "Phase 8",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "CRITICAL",
+      "description": "“所有CRITICAL/MAJOR已修正”不成立，Phase 7.6四项MAJOR遗留",
+      "disposition": "deferred",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F097",
+      "review_id": "R12",
+      "phase": "Phase 8",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "“46项发现”混合不同阶段与严重度统计口径",
+      "disposition": "deferred",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F098",
+      "review_id": "R12",
+      "phase": "Phase 8",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MAJOR",
+      "description": "存在三项IMPROVE时总裁决PASS缺少冻结规程支持",
+      "disposition": "deferred",
+      "counted_in_total": false
+    },
+    {
+      "finding_id": "F099",
+      "review_id": "R12",
+      "phase": "Phase 8",
+      "backend": "Kimi-K2.7-Code",
+      "severity": "MINOR",
+      "description": "CLAUDE.md与project_spec的独立审查红线仍未同步",
+      "disposition": "deferred",
+      "counted_in_total": false
+    }
+  ],
+  "summary": {
+    "summary": {
+      "total_raw": 99,
+      "counted_in_total": 64,
+      "by_severity": {
+        "CRITICAL": 1,
+        "MAJOR": 44,
+        "MODERATE": 0,
+        "MINOR": 19
+      },
+      "by_disposition": {
+        "fixed": 51,
+        "accepted_risk": 3,
+        "deferred": 10,
+        "unknown": 0
+      }
+    }
+  }
+}
