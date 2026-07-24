@@ -94,7 +94,7 @@ Fork: https://github.com/redamancy231-create/CrossCheck
 | C7 独立审查 | ❌ | — | 无审查记录 |
 | C8 闭环修复 | ⚠️ | 低 | PR 历史可见但不可追溯 |
 
-**可提取率**: 5.5/8（69%）——正好落在 ml-quant-trading 的同一档。
+**可提取率**: 5.5/8——部分提取——正好落在 ml-quant-trading 的同一档。
 
 ---
 
@@ -112,14 +112,14 @@ Fork: https://github.com/redamancy231-create/CrossCheck
 
 ### 梯度观更新
 
-CrossCheck 以 69% 落在第二档，但它的失败维度和 ml-quant-trading 完全不同：
+CrossCheck 落在部分提取层级，但它的失败维度和 ml-quant-trading 完全不同：
 
 | 项目 | 强项 | 弱项 |
 |------|------|------|
 | ml-quant-trading | 学术论文（被动方法论文档） | 无 AI 协作记录 |
 | **CrossCheck** | **架构设计 + Skills 体系**（主动方法论设计） | **无审查记录 + 无过程文档** |
 
-ml-quant 的可提取率来自"有人替它写了方法论文档（学术论文）"。CrossCheck 的可提取率来自"作者设计了方法论（6 阶段循环 + Skills），但没记录执行过程"。**两者的 69% 来源不同。**
+ml-quant 的可提取率来自"有人替它写了方法论文档（学术论文）"。CrossCheck 的可提取率来自"作者设计了方法论（6 阶段循环 + Skills），但没记录执行过程"。**两者落在同一层级但来源不同。**
 
 ---
 

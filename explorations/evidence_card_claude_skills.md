@@ -4,7 +4,7 @@ type: 工具/流程（Claude Code Skill 集合）
 status: v1.0.1（脱敏闭合）
 extraction_date: 2026-07-24
 extraction_model: DeepSeek-V4-Pro (via Claude Code CLI)
-extractability: 5/6 (83%)
+extractability: 5/6 ——主要提取
 methodology_fragments: 8
 evidence_grades: {A: 5, B: 1, C: 2}
 rubric_score: 14/15
@@ -154,7 +154,7 @@ framework_version: v0.1-trial
 | C7 闭环修复 | ⚠️ 部分 | CHANGELOG 存在，审查记录存在（_review/），但修复过程未结构化记录 | CHANGELOG.md |
 | C8 数据溯源 | N/A | — | 工具/流程项目，非数据项目 |
 
-**可提取率**: 5/6 适用组件（83%），排除 C8 后为 5/6。
+**可提取率**: 5/6 适用组件——主要提取，排除 C8 后为 5/6。
 
 > 注：C2 和 C8 不适用——claude-skills 是 Skill 工具集，不是方法论提取或学术研究项目。
 
@@ -162,12 +162,12 @@ framework_version: v0.1-trial
 
 | 维度 | claude-skills | independent-review-toolkit | docx-pipeline |
 |------|:--:|:--:|:--:|
-| 可提取率 | 5/6 (83%) | 6/7 (86%) | 7/7 (100%) |
+| 可提取率 | 5/6 ——主要提取 | 6/7 ——主要提取 | 7/7 ——完整提取 |
 | 最强模式 | 路由器+渐进式披露 | 审查 SOP 工具化 | 自动化管道 |
 | C7 闭环 | ⚠️ 部分 | ⚠️ 部分 | ⚠️ 部分 |
 | 审查深度 | ★★★★★ | ★★★★ | ★★★★ |
 
-claude-skills 和 independent-review-toolkit 同属"方法论→可执行工具"的转化类项目，可提取率相近（83% vs 86%）。claude-skills 的独特增量是**死亡判据**和**中断恢复协议**——这两个模式在现有证据卡中未见。
+claude-skills 和 independent-review-toolkit 同属"方法论→可执行工具"的转化类项目，可提取率相近（同属主要提取层级）。claude-skills 的独特增量是**死亡判据**和**中断恢复协议**——这两个模式在现有证据卡中未见。
 
 ### 片段 8: "吃自己的狗粮"——用自己生产的工具管理自己的项目
 
