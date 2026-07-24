@@ -18,7 +18,7 @@
 
 ## What This Is
 
-A meta-level methodology project that systematically extracts reusable methodology patterns from **20 projects**, including the author's own AI collaboration projects, external open-source projects, and academic stress tests.
+A meta-level methodology project that systematically extracts reusable methodology patterns from **22 source projects**. Source projects include the author's own projects (7 public, 3 private) and independent analyses of other people's open-source projects or papers (12). See `explorations/source_projects_summary.md` for the full list and classification.
 
 It has a **dual purpose**:
 1. **Output layer**: Attempt to formalize a "methodology extraction framework"—how to identify, validate, and classify cross-project methodology patterns from a set of projects
@@ -26,7 +26,7 @@ It has a **dual purpose**:
 
 ## Why It Is Immature
 
-The project's own G5 Traceability Audit concluded: **No methodology pattern meets the stability threshold for components, which requires support from ≥3 source projects.** Among the source projects, some were built by the author and others were independent analyses of open-source projects by other creators (e.g., NPGS/ml-quant-trading/CrossCheck). All extraction and review work was performed by the same operator. This sample is too small to support generalizable methodology extraction.
+The project's own G5 Traceability Audit concluded: **No methodology pattern meets the stability threshold for components, which requires support from ≥3 source projects.** The 22 source projects consist of **12 independent analyses of other people's open-source projects or papers** (Evolver, GitNexus, PilotDeck, Small Scale, Agent Harness, LIT, claude-code-ultimate-guide, claude-md-generation, PocketFlow, NPGS, ml-quant-trading, CrossCheck), **7 author-built public projects** (AI Collaboration Framework, claude-skills, docx-pipeline, ETF-pybind11, Independent Review Toolkit, M&A Case Study, prompt-tdd), and 3 author-built private projects. All extraction and review work was performed by the same operator. This sample is too small to support generalizable methodology extraction.
 
 In other words, we proved "how difficult this is," but we have not yet established "how this should be done."
 
@@ -182,9 +182,7 @@ The project's central claim—that independent multi-model review is effective�
 2. **Assemble scattered fragments into patterns**—methodology documentation from 20 projects is distributed across many locations; the extraction framework provides a process for cross-project comparison
 3. **Enable external validation of your methodology**—once organized into a structured form, it can be compared, challenged, and cross-validated against the academic literature
 
-**Core limitation**: The framework has so far been run on only 20 AI collaboration projects—some built by the author, others being independent analyses of projects by other creators (e.g., NPGS/ml-quant-trading/CrossCheck). Extractability correlates with a project's methodological awareness: projects that actively document their AI collaboration process yield most methodology components; projects that leave only passive code traces yield substantially fewer components—the framework cannot extract information that does not exist. The same operator performed all extraction and review work. For a detailed breakdown by origin and type, see `explorations/source_projects_summary.md`.
-
-**Evidence card coverage**: Of the 20 source projects, this repository contains only 11 public evidence cards (8 author-built + 3 externally-analyzed). Evidence cards for the remaining projects are kept locally as they involve non-public projects. The total project count claimed does not equal the number of publicly verifiable evidence cards. Whether the framework's effectiveness generalizes to other authors' working habits and other operators' extraction practices **has not been validated**.
+**Core limitation**: The framework has been run on 22 source projects — 12 externally-analyzed + 7 author-built public + 3 author-built private. Of these, 11 have standalone evidence cards (`explorations/`); the analysis process for the remaining 11 is documented in the review reports under `reviews/`. Extractability correlates with a project's methodological awareness: projects that actively document their AI collaboration process yield most methodology components; projects that leave only passive code traces yield substantially fewer components—the framework cannot extract information that does not exist. The same operator performed all extraction and review work. See `explorations/source_projects_summary.md` for the full list and classification. Whether the framework's effectiveness generalizes to other authors' working habits and other operators' extraction practices **has not been validated**.
 
 ## Relationship to the Parent Framework
 
