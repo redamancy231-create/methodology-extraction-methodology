@@ -46,3 +46,4 @@ Thumbs.db
 .idea/
 __pycache__/
 *.py[cod]
+/spec/project_status.md
