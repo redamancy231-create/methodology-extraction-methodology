@@ -18,7 +18,7 @@
 
 ## What This Is
 
-A meta-level methodology project that systematically extracts reusable methodology patterns from **22 source projects**. Source projects include the author's own projects (7 public, 3 private) and independent analyses of other people's open-source projects or papers (12). See `explorations/source_projects_summary.md` for the full list and classification.
+A meta-level methodology project that systematically extracts reusable methodology patterns from **22 source projects**. Source projects include the author's own projects (7 public, 4 private) and independent analyses of other people.s open-source projects or papers (11). See `explorations/source_projects_summary.md` for the full list and classification.
 
 It has a **dual purpose**:
 1. **Output layer**: Attempt to formalize a "methodology extraction framework"—how to identify, validate, and classify cross-project methodology patterns from a set of projects
@@ -34,7 +34,7 @@ In other words, we proved "how difficult this is," but we have not yet establish
 
 ### Empirical Evidence from the Review Chain (The Most Valuable Part)
 
-Ten formal review rounds were conducted using four review backends—GPT-5.5, Kimi-K2.7, Qwen3.7-Max, and GLM-5—plus one re-encoding by a different backend in Phase 3.5. The process produced 58 findings, all of which were closed. Based on the independence analysis in Kohli (2026-05), these represent approximately 2–3 effectively independent perspectives. Key data points:
+Ten formal review rounds were conducted using four review backends—GPT-5.5, Kimi-K2.7, Qwen3.7-Max, and GLM-5—plus one re-encoding by a different backend in Phase 3.5. The process produced several dozen findings, documented in `reviews/`. Based on the independence analysis in Kohli (2026-05), these represent approximately 2–3 effectively independent perspectives. Key data points:
 
 - **Phase 5 dual-round orthogonal review**: GPT-5.5 found 17 issues and Qwen3.7-Max found 16, with **zero overlap**. No overlap was observed across these two review rounds under the current coding rules, suggesting complementary error sensitivity across models
 - **Phase 7.6 final review**: GPT-5.5 rated practical completeness at 7.7/10
@@ -48,9 +48,9 @@ A component-by-component review of the v0.1 framework concluded that "none of th
 
 See [`synthesis/phase4_traceability_audit.md`](synthesis/phase4_traceability_audit.md) for details.
 
-### 10 Public Evidence Cards
+### 11 Public Evidence Cards
 
-Each card records the methodology feature extraction results for one source project or external stress test. Ten additional evidence cards for nonpublic projects are retained locally (see the scope notes in `explorations/source_projects_summary.md`).
+Each card records the methodology feature extraction results for one source project or external stress test, available in the `explorations/` directory. Detailed evidence cards for nonpublic source projects are not in this repository.
 
 See [`explorations/`](explorations/) for details.
 
@@ -75,7 +75,7 @@ See [`framework_output/main/`](framework_output/main/) for details.
 │   ├── risk_register.md               ← risk register
 │   └── ...
 │
-├── explorations/                      ← 10 public evidence cards + source project summary
+├── explorations/                      ← 11 public evidence cards + source project summary
 │   ├── evidence_card_*.md             ← methodology feature extraction for each source project
 │   └── phase2_completion_summary.md
 │
@@ -179,7 +179,7 @@ The project's central claim—that independent multi-model review is effective�
 **Three forms of value**:
 
 1. **Determine what your methodology is "worth"**—the framework's eight components form a checklist. Running it once shows which dimensions of your projects demonstrate methodological awareness—documentation, review, and closure—and which remain blank
-2. **Assemble scattered fragments into patterns**—methodology documentation from 20 projects is distributed across many locations; the extraction framework provides a process for cross-project comparison
+2. **Assemble scattered fragments into patterns**—methodology documentation from 22 projects is distributed across many locations; the extraction framework provides a process for cross-project comparison
 3. **Enable external validation of your methodology**—once organized into a structured form, it can be compared, challenged, and cross-validated against the academic literature
 
 **Core limitation**: The framework has been run on 22 source projects — 12 externally-analyzed + 7 author-built public + 3 author-built private. Of these, 11 have standalone evidence cards (`explorations/`); the analysis process for the remaining 11 is documented in the review reports under `reviews/`. Extractability correlates with a project's methodological awareness: projects that actively document their AI collaboration process yield most methodology components; projects that leave only passive code traces yield substantially fewer components—the framework cannot extract information that does not exist. The same operator performed all extraction and review work. See `explorations/source_projects_summary.md` for the full list and classification. Whether the framework's effectiveness generalizes to other authors' working habits and other operators' extraction practices **has not been validated**.

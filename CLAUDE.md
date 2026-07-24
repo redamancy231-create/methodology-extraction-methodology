@@ -15,7 +15,7 @@
 
 ## 1. 项目定义
 
-**这是什么**：一个元层次方法论项目——从19个项目（含自有AI协作项目、外部开源项目、学术压力测试）中系统提取方法论模式，形式化为可复用的"方法论提取框架"（5组件）。
+**这是什么**：一个元层次方法论项目——从22个源项目（含自有AI协作项目、外部开源项目、学术压力测试）中系统提取方法论模式，形式化为可复用的"方法论提取框架"。初始集n=12（Phase 1-6基础），扩展至22（含2026-07-23重组+外部压力测试+追加提取）。
 
 **双重目的**：
 - **产出层**：方法论提取框架文档（.md + .json）——项目筛选checklist、提取流程标准化、采纳/不采纳决策模板、跨项目模式识别、独立审查SOP
@@ -43,7 +43,7 @@
 - [[methodological-review-sop.md]] — 独立审查SOP v1.0.3
 - [[meta-audit-checklist.md]] — 67项元审查清单
 - [[meta_methodology_extraction_todo]] — 方法论提取TODO memory
-- 12个源项目的 CLAUDE.md（通过 CLAUDE-md-generation 项目批量生成）
+- 初始集12个源项目的 CLAUDE.md（通过 CLAUDE-md-generation 项目批量生成；当前语料已扩展至22）
 
 ### 待读（后续阶段）
 - 7份已有方法论提取产物（GitNexus/PilotDeck/Small Scale/Evolver/并购重组/Agent Harness/ETF）
