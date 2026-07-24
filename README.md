@@ -1,7 +1,7 @@
 # 方法论提取方法论（Methodology Extraction Methodology）
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status](https://img.shields.io/badge/Status-CLOSED-inactive.svg)]()
+[![Status](https://img.shields.io/badge/Status-MAINTENANCE-yellow.svg)]()
 [![Version](https://img.shields.io/badge/Version-v0.1_trial-orange.svg)]()
 [![Language](https://img.shields.io/badge/README-简体中文-red.svg)]()
 [![Framework](https://img.shields.io/badge/Based_on-AI协作框架_v1.5.1-blue.svg)](https://github.com/redamancy231-create/ai-collaboration-framework)
@@ -9,7 +9,7 @@
 [简体中文](README.md) | [正體中文](README_zh-TW.md) | [English](README_en.md)
 
 > **定位**: 一次方法论文献提取的实验记录——不是可交付的成品，而是过程的诚实记录。
-> **状态**: v0.1 trial · CLOSED · 不成熟
+> **状态**: v0.1 trial（框架产物版本）· v1.0（项目版本，见 CLAUDE.md）· MAINTENANCE · 不成熟
 > **生成模型**: DeepSeek-V4-Pro (via Claude Code CLI)
 > **生成日期**: 2026-06-16 · **最后更新**: 2026-07-24
 

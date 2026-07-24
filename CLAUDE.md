@@ -1,7 +1,7 @@
 # CLAUDE.md — 方法论提取方法论 项目宪法
 
 > **项目**: 方法论提取方法论（Methodology Extraction Methodology）
-> **版本**: v1.0（项目闭合 — CLOSED）
+> **版本**: v1.0（项目执行结束 — MAINTENANCE）
 > **生成模型**: DeepSeek-V4-Pro (via Claude Code CLI shell)
 > **阅读注意**: 本文中的 `[[...]]` 为跨项目引用标记（指向同一工作区内的其他项目），在 GitHub 上不会解析为链接。项目内文件的引用使用标准相对路径。
 > **生成日期**: 2026-06-16
@@ -27,9 +27,9 @@
 
 ## 2. 当前状态
 
-- **版本**: v1.0（项目闭合）
-- **阶段**: Phase 8 完成 → **CLOSED**
-- **状态**: 闭合
+- **版本**: v1.0（项目执行结束）
+- **阶段**: Phase 8 完成 → **MAINTENANCE**
+- **状态**: 执行结束，事实对账可能因新审查发现而订正
 - **闭合适配器**: 全部交付物产出 ✅ + 独立审查通过 ✅（Phase 7.6 Codex 7.7/10 ≥7.0）+ Retrospect 产出 ✅（3 失效 + 3 意外）
 
 ---
@@ -126,6 +126,9 @@ ls [项目根]/方法论提取方法论/framework_output/
 | v0.2 | 2026-06-16 | Phase 2-4.5完成。4轮异后端审查。project_spec+plan同步更新。G1-G7遗留修复 |
 | v0.3 | 2026-06-16 | Phase 5-6关闭。框架v0.1试行版（.md+.json经37项审查发现修正）+ Codex (6.1) + Qwen (6.3) + Kimi Phase6 + Phase 6 Mini-extraction（3观察+Kimi核查修正4项）。审查链：3后端×3Phase，37项发现，0 CRITICAL |
 | v0.4 | 2026-06-16 | Phase 7 系列关闭。Phase 7 Qwen 终期闭合审查 (6.8) + Phase 7.5 GLM-5 方法论价值审查 (5.8) + Phase 7.6 Codex 实用完整性重审 (7.7 GO ✅，首个≥7.0)。5+5+8+8=26 项 Phase 7 系列发现，CRITICAL/MAJOR 全部修正。框架文档 899 行。Phase 8 就绪。 |
+| v0.5 | 2026-07-23 | 语料从 12 扩展至 19——补充 7 个源项目（ml-quant-trading / CrossCheck / NPGS / claude-code-ultimate-guide / PocketFlow + 2 个自建未公开项目）。源项目分类修正（11 外部分析 + 7 自建公开 + 4 自建未公开）。`source_projects_summary.md` 创建。 |
+| v0.6 | 2026-07-23 | 语料从 19 扩展至 22——再追加 3 个（含 claude-skills / prompt-tdd 项目方法论提取）。证据卡 #9-#11 创建。 |
+| v1.0 | 2026-07-24 | GPT-5.6-Sol (via Codex CLI) 两轮异后端审查闭合（R1 19项 + R2 回归审计 3项，0 回归）。框架正文 22 源终版。项目执行结束，状态变更为 MAINTENANCE。 |
 
 ---
 
