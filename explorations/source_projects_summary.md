@@ -76,7 +76,18 @@
 
 ## 提取的跨项目模式（Phase 2-4 合成）
 
-> **目录版本说明**：以下 P1-P8 为 source_projects_summary 的汇总版本。原始 Phase 4 目录（`synthesis/phase4_validated_pattern_catalog.md`）中的模式定义和 ID 可能与此表不同——部分模式在 Phase 4 后被重新命名或重组。当两处冲突时，Phase 4 目录为权威定义，此表为引用摘要。
+> **⚠️ 目录版本说明**：以下 P1-P8 为本汇总表的引用版本。原始 Phase 4 目录（`synthesis/phase4_validated_pattern_catalog.md`）中的 P4 和 P7 已被裁决为 REJECTED——本表对这两个 ID 赋予了新定义。映射关系：
+>
+> | 本表 ID | 本表定义 | Phase 4 目录对应 |
+> |---------|---------|-----------------|
+> | P1-P3 | 同 Phase 4 | 定义一致（P1/P2/P3 经 downgrade 后保留） |
+> | P4 | 审查后端多样性 | **新增**（Phase 4 P4"证据等级意识结构性出现"= REJECTED） |
+> | P5 | 提取者效应 | **定义一致**（Phase 4 P5 保留，downgrade to B-） |
+> | P6 | 异后端审查 | **定义调整**（Phase 4 P6 保留，downgrade to A-） |
+> | P7 | 诊断→修复闭环 | **新增**（Phase 4 P7"医生的孩子没人治"= REJECTED） |
+> | P8 | 术前否决位 | 同 Phase 4（downgrade to Sp注记） |
+>
+> 当两处冲突时，Phase 4 目录为权威定义；本表为扩展/重组后的引用摘要。P4/P7 的 ID 复用不应被视为 Phase 4 裁决的撤销。
 
 | # | 模式 | 支持数 | 稳定度 |
 |---|------|:-----:|:------:|
