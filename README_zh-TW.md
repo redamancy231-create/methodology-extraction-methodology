@@ -1,7 +1,7 @@
 # 方法論提取方法論（Methodology Extraction Methodology）
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status](https://img.shields.io/badge/Status-CLOSED-inactive.svg)]()
+[![Status](https://img.shields.io/badge/Status-MAINTENANCE-yellow.svg)]()
 [![Version](https://img.shields.io/badge/Version-v0.1_trial-orange.svg)]()
 [![Language](https://img.shields.io/badge/README-正體中文-red.svg)]()
 [![Framework](https://img.shields.io/badge/Based_on-AI協作框架_v1.5.1-blue.svg)](https://github.com/redamancy231-create/ai-collaboration-framework)
@@ -9,7 +9,7 @@
 [简体中文](README.md) | [正體中文](README_zh-TW.md) | [English](README_en.md)
 
 > **定位**: 一次方法論文獻提取的實驗記錄——不是可交付的成品，而是過程的誠實記錄。
-> **狀態**: v0.1 trial · CLOSED · 不成熟
+> **狀態**: v0.1 trial（框架產物版本）· v1.0（專案版本，見 CLAUDE.md）· MAINTENANCE · 不成熟
 > **生成模型**: DeepSeek-V4-Pro (via Claude Code CLI)
 > **生成日期**: 2026-06-16
 
@@ -33,7 +33,7 @@
 
 ### 審查鏈實證（最有價值的部分）
 
-10 輪正式審查（來自 4 個審查後端：GPT-5.5/Kimi-K2.7/Qwen3.7-Max/GLM-5），另有 1 次異後端復編碼（Phase 3.5）。累計數十項發現，審查記錄見 `reviews/`。基於 Kohli (2026-05) 的獨立性分析，有效獨立視角約 2-3 個。關鍵資料點：
+多輪正式審查（跨 GPT / Kimi / Qwen / GLM 四種後端），另有 1 次異後端復編碼。累計 100 項獨立發現（詳見 `reviews/finding_register.md`；`explorations/finding_register.json` 為 GPT-5.6-Sol 重提取實驗的早期產物，99→64 計數口徑不同，非權威版本），審查記錄見 `reviews/`。基於 Kohli (2026-05) 的獨立性分析，有效獨立視角約 2-3 個。關鍵資料點：
 
 - **Phase 5 雙輪正交審查**：GPT-5.5 發現 17 項 + Qwen3.7-Max 發現 16 項 = **0 重疊**——在本次兩輪審查及當前編碼規則下未觀察到重疊，提示不同模型的錯誤敏感性具有互補性
 - **Phase 7.6 終期審查**：GPT-5.5 實用完整性評分 7.7/10
@@ -84,7 +84,7 @@
 │   ├── phase4_traceability_audit.md   ← G5 可追溯審計
 │   └── phase6_mini_extraction.md      ← 遞迴觀察
 │
-├── reviews/                           ← 10 輪審查報告（核心實證）
+├── reviews/                           ← 多輪審查報告（核心實證）
 │   ├── phase5_codex_crosscheck.md     ← GPT-5.5 審查（17 項發現）
 │   ├── phase5_qwen_independent_review.md ← Qwen3.7-Max 審查（16 項發現）
 │   └── ...
@@ -161,7 +161,7 @@
 
 | 來源 | 驗證了什麼 | 修正了什麼 |
 |------|-----------|-----------|
-| Kohli (2026-05) | 4-5 模型架構是最優配置 | 10 輪審查 ≈ 2-3 個有效獨立視角，不應聲稱"10 輪獨立" |
+| Kohli (2026-05) | 4-5 模型架構是最優配置 | 多輪審查 ≈ 2-3 個有效獨立視角，不應聲稱全部獨立 |
 | Nájera (2026-05) | Phase 5 零重疊是"深度分歧"的預期表現 | 58 項發現可系統分為 4 類，34% 為深度分歧——≥3 後端是必要的 |
 | Kuai (2026-04) | 全不同提供商的模型選擇是隱式去糾纏策略 | 糾纏度雖低但非零——不能聲稱"完全獨立" |
 | Oda (2026) | 鐵律體系比最接近的學術框架更嚴格 | Oda 的失敗模式分類可納入 Phase 0 風險登記冊 |
