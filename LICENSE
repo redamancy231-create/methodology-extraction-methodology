@@ -1,0 +1,23 @@
+# LICENSE
+
+Copyright © 2026 redamancy231-create
+
+## 文档、数据、图表
+
+本项目中的文档、数据、图表（包括但不限于 Markdown、JSON、YAML、文本文件）采用 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 许可。
+
+您可以自由地：
+- 分享 — 在任何媒介以任何形式复制、发行本作品
+- 改编 — 修改、转换或以本作品为基础进行创作
+
+惟须遵守下列条件：
+- **署名** — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否对原始作品作了修改
+
+建议署名格式：
+> "方法论提取方法论" © 2026 redamancy231-create, CC BY 4.0
+
+完整的许可法律文本见：https://creativecommons.org/licenses/by/4.0/legalcode
+
+## 代码
+
+本项目当前不包含可执行代码。如未来有代码文件加入，将采用 MIT 许可，届时补充完整的 MIT 文本。

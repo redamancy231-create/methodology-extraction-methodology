@@ -1,0 +1,833 @@
+{
+  "metadata": {
+    "title": "方法论提取框架",
+    "version": "0.1.0",
+    "version_label": "v0.1-trial",
+    "status": "trial",
+    "document_status": "经四轮异后端审查修正（Phase 5 Codex 6.1 + Phase 5 Qwen 6.3 + Phase 7 Qwen 6.8 + Phase 7.6 Codex 7.7 GO）",
+    "stability_note": "全组件试行版——G5可追溯性审计结论：当前无一模式满足≥3源项目直接证据的稳定组件门槛",
+    "generated_by": "DeepSeek-V4-Pro (via Claude Code CLI shell)",
+    "generated_date": "2026-06-16",
+    "parent_framework": {
+      "name": "AI协作项目全生命周期框架",
+      "version": "1.5.1",
+      "protocol": "Protocol 3（首次真实试跑）"
+    },
+    "evidence_basis": {
+      "source_projects": 12,
+      "existing_extractions": 7,
+      "independent_reviews": 10,
+      "review_backends": [
+        "GPT-5.5 (Codex CLI)",
+        "Kimi-K2.7-Code",
+        "Qwen3.7-Max",
+        "GLM-5"
+      ],
+      "additional_recoding": "Phase 3.5 Codex 异后端复编码（非正式审查）",
+      "effective_independent_perspectives_note": "基于 Kohli (2026-05) 分析，有效独立视角约 2-3 个"
+    },
+    "review_chain": [
+      {
+        "reviewer": "GPT-5.5 (Codex CLI)",
+        "phase": 5,
+        "score": 6.1,
+        "verdict": "GO WITH FIXES",
+        "findings": 17,
+        "report": "reviews/phase5_codex_crosscheck.md"
+      },
+      {
+        "reviewer": "Qwen3.7-Max (Qwen Code CLI)",
+        "phase": 5,
+        "score": 6.3,
+        "verdict": "GO WITH FIXES",
+        "findings": 16,
+        "report": "reviews/phase5_qwen_independent_review.md"
+      },
+      {
+        "reviewer": "Kimi-K2.7-Code (Kimi Code CLI)",
+        "phase": 6,
+        "type": "单轴事实核查",
+        "findings": 4,
+        "report": "reviews/kimi_phase6_factcheck_report.md"
+      },
+      {
+        "reviewer": "Qwen3.7-Max (Qwen Code CLI)",
+        "phase": 7,
+        "score": 6.8,
+        "verdict": "GO WITH FIXES",
+        "findings": 9,
+        "axes": [
+          "事实准确性",
+          "归类有效性",
+          "Protocol 3合规",
+          "闭合条件",
+          "跨Phase一致性",
+          "递归自指一致性"
+        ],
+        "report": "reviews/phase7_qwen_final_review_report.md"
+      },
+      {
+        "reviewer": "GLM-5 (Qwen Code CLI, DashScope API)",
+        "phase": "7.5",
+        "score": 5.8,
+        "verdict": "IMPROVE",
+        "findings": 8,
+        "axes": [
+          "方法论原创性",
+          "操作可迁移性",
+          "证据-声称对齐",
+          "自反性与诚实度"
+        ],
+        "report": "reviews/phase7.5_glm5_methodology_value_review.md"
+      },
+      {
+        "reviewer": "GPT-5.5 (Codex CLI)",
+        "phase": "7.6",
+        "score": 7.7,
+        "verdict": "GO",
+        "findings": 8,
+        "axes": [
+          "首次使用体验",
+          "操作化充分性",
+          "诚实度与自限性"
+        ],
+        "report": "reviews/phase7.6_codex_targeted_review_report.md"
+      },
+      {
+        "reviewer": "Kimi-K2.7-Code (Kimi Code CLI)",
+        "phase": 8,
+        "type": "单轴事实核查（Retrospect）",
+        "findings": 7,
+        "report": "reviews/kimi_phase8_factcheck_report.md"
+      }
+    ],
+    "total_review_findings": 58,
+    "total_critical": 0,
+    "counterpart_md": "方法论提取框架_v0.1_trial.md"
+  },
+  "quick_start_paths": {
+    "two_hours": {
+      "path": [
+        "§1.1 准入条件",
+        "§2.1 Phase A-B 证据收集+片段提取",
+        "§2.2 证据卡模板填写"
+      ],
+      "output": "单项目证据卡（含≥3个方法论片段）"
+    },
+    "half_day": {
+      "path": [
+        "上述",
+        "§3.1 三级分流",
+        "§2.1 Phase C 步骤1-2 聚类+对抗验证"
+      ],
+      "output": "单项目完整提取+分流标注"
+    },
+    "full_day": {
+      "path": [
+        "上述",
+        "§2.1 Phase C-D 全流程",
+        "§5.1 触发条件"
+      ],
+      "output": "单项目完整提取+审查安排"
+    },
+    "complete": {
+      "path": [
+        "全文（多项目并行+§4跨项目综合+§5全SOP）"
+      ],
+      "output": "多项目综合框架"
+    }
+  },
+  "stability_labels": {
+    "S": {
+      "label": "稳定组件",
+      "threshold": "≥3源项目直接证据+无证伪反例",
+      "current_count": 0
+    },
+    "E": {
+      "label": "试行协议",
+      "threshold": "≥1源项目证据但不足3，或虽≥3但命题被削弱/反例未解决",
+      "usage_rule": "可尝试应用，须记录效果并独立评估；不预设升级预期",
+      "current_count": 5
+    },
+    "I": {
+      "label": "审查门禁",
+      "threshold": "来自本元项目过程证据或审查发现",
+      "usage_rule": "本元项目总结的流程纪律；不宣称跨项目稳定性",
+      "current_count": 4
+    },
+    "Sp": {
+      "label": "工具注记",
+      "threshold": "工具能力观察，非方法论主张",
+      "current_count": 1
+    },
+    "classification_systems_relationship": {
+      "system_a": {
+        "name": "模式强度",
+        "location": "§2.1 Phase C",
+        "levels": [
+          "A",
+          "A-",
+          "B",
+          "B-",
+          "C+",
+          "Sp",
+          "REJECTED"
+        ],
+        "measures": "证据量"
+      },
+      "system_b": {
+        "name": "稳定性标签",
+        "location": "§0.2",
+        "levels": [
+          "S",
+          "E",
+          "I",
+          "Sp"
+        ],
+        "measures": "证据来源类型和可推广性"
+      },
+      "independence": "二者可独立变化：高强度可能因证据来自本元项目而标[I]（如P6 A-→[I]），低强度可能因有独立源项目证据而标[E]（如P1 C+→[E]）",
+      "conflict_rule": "冲突时以稳定性标签为准（标签决定使用权限）"
+    }
+  },
+  "components": {
+    "C1": {
+      "id": "C1",
+      "name": "项目筛选Checklist",
+      "stability": "E",
+      "stability_label": "试行协议",
+      "sections": {
+        "minimum_entry": {
+          "conditions": [
+            {
+              "id": "E1",
+              "condition": "项目CLAUDE.md存在且可读",
+              "check": "Read验证",
+              "threshold": "≥50行完整/20-49需补齐/<20排除"
+            },
+            {
+              "id": "E2",
+              "condition": "项目有闭合记录或终期总结",
+              "check": "搜索闭合/CLOSED/终期关键词"
+            },
+            {
+              "id": "E3",
+              "condition": "项目产出≥3个可定位文件",
+              "check": "Glob验证"
+            },
+            {
+              "id": "E4",
+              "condition": "至少1个方法论相关发现",
+              "check": "阅读方法论章节"
+            }
+          ]
+        },
+        "extraction_value_rubric": {
+          "dimensions": [
+            "方法论密度",
+            "失败教训丰富度",
+            "独立审查深度",
+            "格式成熟度",
+            "源项目质量"
+          ],
+          "priority_thresholds": {
+            "high": 12,
+            "medium": {
+              "min": 8,
+              "max": 11
+            },
+            "low": 7
+          },
+          "methodology_density_guide": {
+            "description": "提取前快速扫描项目文档中的特征关键词以预判可迁移片段数",
+            "categories": {
+              "失败教训类": [
+                "教训",
+                "陷阱",
+                "已知问题",
+                "失败",
+                "事故",
+                "复盘",
+                "不要"
+              ],
+              "跨项目关联类": [
+                "对标",
+                "镜像",
+                "跨项目",
+                "pattern",
+                "模式",
+                "迁移",
+                "复用"
+              ],
+              "方法论自觉类": [
+                "方法论",
+                "阶段",
+                "流水线",
+                "checklist",
+                "门禁",
+                "审查",
+                "协议"
+              ],
+              "反例边界类": [
+                "不适用",
+                "边界",
+                "例外",
+                "限制",
+                "仅当",
+                "前提"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "C2": {
+      "id": "C2",
+      "name": "提取流程标准化",
+      "stability": "E",
+      "pipeline": {
+        "phase_0": {
+          "name": "项目筛选（分流过滤）",
+          "loops": 0.5,
+          "steps": [
+            {
+              "id": "0.1",
+              "action": "按§1.1最低准入条件检查",
+              "output": "准入/排除/边界标注"
+            },
+            {
+              "id": "0.2",
+              "action": "按§1.2提取价值评估rubric评分",
+              "output": "高/中/低优先级"
+            },
+            {
+              "id": "0.3",
+              "action": "按§3.1三级分流预判（项目级）",
+              "output": "预分流标注"
+            }
+          ],
+          "interface": "Phase 0输出作为Phase A的输入过滤器——仅高/中优先级进入完整五层证据包"
+        },
+        "phase_A": {
+          "name": "证据收集",
+          "loops": "1-2",
+          "minimum_evidence_package": [
+            {
+              "layer": 1,
+              "name": "入口层",
+              "content": "项目CLAUDE.md"
+            },
+            {
+              "layer": 2,
+              "name": "终态层",
+              "content": "闭合记录或终期总结"
+            },
+            {
+              "layer": 3,
+              "name": "验证层",
+              "content": "≥1份独立审查报告"
+            },
+            {
+              "layer": 4,
+              "name": "内容层",
+              "content": "方法论相关章节原文"
+            },
+            {
+              "layer": 5,
+              "name": "可复现层",
+              "content": "关键文件路径索引"
+            }
+          ]
+        },
+        "phase_B": {
+          "name": "片段提取",
+          "loops": "2-3",
+          "fragment_core_fields": [
+            "片段ID",
+            "描述≤50字",
+            "来源文件+行号",
+            "可迁移条件",
+            "反例/限制",
+            "证据等级"
+          ],
+          "fragment_gate_fields": [
+            "独立审查状态",
+            "提取者注记"
+          ]
+        },
+        "phase_D": {
+          "name": "交付与验证",
+          "loops": "1-2",
+          "steps": [
+            {
+              "id": "D1",
+              "action": "合成框架文档"
+            },
+            {
+              "id": "D2",
+              "action": "生成机读JSON双件"
+            },
+            {
+              "id": "D3",
+              "action": "异后端独立审查"
+            },
+            {
+              "id": "D3.5",
+              "action": "审查发现回写——将影响模式/标签的审查发现更新到§4.2和§3.2",
+              "output": "更新后的模式目录"
+            },
+            {
+              "id": "D4",
+              "action": "更新项目文件"
+            },
+            {
+              "id": "D5",
+              "action": "闭合评估"
+            }
+          ]
+        }
+      },
+      "templates": {
+        "evidence_card": {
+          "fields": [
+            "项目名称",
+            "项目类型",
+            "状态",
+            "规模",
+            "源项目路径",
+            "rubric评分",
+            "证据来源",
+            "关键方法论片段",
+            "已有提取质量",
+            "提取就绪度（映射自rubric总分：≥12高/8-11中/≤7低）",
+            "备注"
+          ]
+        }
+      }
+    },
+    "C3": {
+      "id": "C3",
+      "name": "采纳决策模板",
+      "stability": "E",
+      "triage": {
+        "level_1": {
+          "name": "执行层失误",
+          "action": "归档，不进入提取"
+        },
+        "level_2": {
+          "name": "项目内模式",
+          "action": "预登记为待观察"
+        },
+        "level_3": {
+          "name": "系统性缺陷",
+          "action": "进入提炼流水线"
+        },
+        "level_2_to_3_upgrade": "每3个新项目闭合后由独立审查者回顾LEVEL 2清单，重新评估升级",
+        "interface_note": "三级分流在Phase 0做项目级预分流，在Phase B后对每个片段做精确分流",
+        "known_biases": [
+          "事后确认偏误（模式编号在事后非事前预注册）",
+          "事前归档偏误（操作者可能在项目关闭时错误归档）"
+        ]
+      },
+      "adoption_matrix": [
+        {
+          "source_evidence_count": "≥3",
+          "adversarial_result": "存活",
+          "counter_evidence": "无证伪反例",
+          "strength": "稳定组件",
+          "label": "S"
+        },
+        {
+          "source_evidence_count": "1-2",
+          "adversarial_result": "被削弱但方向性证据保留",
+          "counter_evidence": "—",
+          "strength": "试行协议（有限证据版）",
+          "label": "E"
+        },
+        {
+          "source_evidence_count": "0（仅过程证据）",
+          "adversarial_result": "存活",
+          "counter_evidence": "—",
+          "strength": "审查门禁",
+          "label": "I"
+        },
+        {
+          "source_evidence_count": "任意",
+          "adversarial_result": "被推翻",
+          "counter_evidence": "—",
+          "strength": "拒绝",
+          "label": "REJECTED"
+        }
+      ]
+    },
+    "C4": {
+      "id": "C4",
+      "name": "跨项目模式识别",
+      "stability": "E",
+      "identification_flow": {
+        "gates": [
+          {
+            "gate": 1,
+            "name": "候选模式生成",
+            "requirement": "≥2个源项目片段支撑"
+          },
+          {
+            "gate": 2,
+            "name": "对抗验证（强制）",
+            "requirement": "≥2个独立否定者"
+          },
+          {
+            "gate": 3,
+            "name": "不确定项升级",
+            "requirement": "分歧≥1票→Judge Panel≥3判断"
+          },
+          {
+            "gate": 4,
+            "name": "异后端复编码（强制）",
+            "requirement": "独有特征+审查状态+源质量三个维度"
+          },
+          {
+            "gate": 5,
+            "name": "稳定性标签赋值",
+            "requirement": "已有模式用预填值查§3.2矩阵；新候选执行步骤1-4后赋值。预填值仅在新对抗验证或审查发现后才更新"
+          }
+        ],
+        "known_limitation": "本元项目Phase 4 Workflow未记录agent级分歧，降低了对抗验证过程的可追溯性"
+      },
+      "evolution_protocol": {
+        "on_new_project_close": "按C1筛选→按C2提取→对照现有目录",
+        "upgrade_trigger": "试行协议源项目证据从1-2增至≥3+命题未被证伪+偏误已预注册控制+效应量可估计",
+        "downgrade_trigger": "新项目提供明确反例",
+        "review_driven_update": "当独立审查发现影响模式强度判定时（证据被修正、反例被新增、操作化前提不成立），在修正框架文档的同时更新模式目录和G5审计映射表",
+        "versioning": "模式目录的增/改/删对应框架版本号次/微升级"
+      },
+      "patterns": {
+        "B_and_above": [
+          {
+            "id": "P6",
+            "name": "异后端Phase后审查",
+            "strength": "A-",
+            "label": "I",
+            "label_name": "审查门禁",
+            "note": "[I]级流程规则，基于本元项目执行经验，非方法论主张",
+            "source_evidence_count_core": 0,
+            "source_evidence_count_related": 6,
+            "execution_rules": {
+              "trigger": "项目类型=方法论/概念归类+Phase产出含≥3个概念性判断+异后端工具可用",
+              "rule": "审查prompt由非作者设计+双轴不同+标记修正轮次"
+            }
+          },
+          {
+            "id": "P5",
+            "name": "提取者效应",
+            "strength": "B-",
+            "label": "E",
+            "source_evidence_count": 2,
+            "limitations": [
+              "证据仅来自2份源文档的1对模型复编码（DeepSeek-V4-Pro vs GPT-5.5 (Codex CLI)）",
+              "提取者效应是模型×任务规范的交互效应，非模型主效应",
+              "维度风险非恒定——更换模型对或标准化codebook后应重新评定",
+              "任务规范标准化程度作为调节变量：codebook越标准效应可能越小"
+            ],
+            "risk_calibration": [
+              {
+                "dimension": "独有特征计数",
+                "risk": "高",
+                "recoding": "强制≥2后端"
+              },
+              {
+                "dimension": "独立审查状态判定",
+                "risk": "高",
+                "recoding": "强制≥2后端"
+              },
+              {
+                "dimension": "源质量评估",
+                "risk": "高",
+                "recoding": "强制≥2后端"
+              },
+              {
+                "dimension": "片段长度/粒度",
+                "risk": "中",
+                "recoding": "Spot-check"
+              },
+              {
+                "dimension": "局限声明详细度",
+                "risk": "中",
+                "recoding": "Spot-check"
+              },
+              {
+                "dimension": "维度数/组织方式",
+                "risk": "低",
+                "recoding": "豁免"
+              }
+            ]
+          }
+        ],
+        "C_plus_level": [
+          {
+            "id": "P1",
+            "name": "Premise Gate",
+            "strength": "C+",
+            "label": "E",
+            "source_evidence_count": 2,
+            "operationalization": {
+              "rules": [
+                "项目启动前强制回答该不该做",
+                "锁定可证伪死亡判据",
+                "独立审查包含质疑前提轴"
+              ],
+              "execution_guarantee": "gate须配套强制执行机制（独立方否决权，非仅建议权）"
+            },
+            "known_limitation": "gate存在≠gate有效执行——历史数据无法区分gate缺失和gate无效"
+          },
+          {
+            "id": "P3",
+            "name": "方法论资产提炼协议",
+            "strength": "C+",
+            "label": "E",
+            "source_evidence_count": 4,
+            "known_biases": [
+              "事后确认偏误",
+              "事前归档偏误——缓解：LEVEL 2→3升级协议"
+            ]
+          },
+          {
+            "id": "P2",
+            "name": "多后端审查多样性保险",
+            "strength": "C+",
+            "label": "E",
+            "source_evidence_count": 6,
+            "falsified_subclaim": "两类错误分化被GitNexus反例证伪",
+            "operationalization": {
+              "necessary_conditions": [
+                "零卷入",
+                "多角色",
+                "多轮"
+              ],
+              "enhancement": "多后端",
+              "upstream_bias_check": "审查prompt应由独立方设计且包含质疑问题框架轴——多后端回答同一个有偏差的问题是假独立"
+            },
+            "known_limitation": "多后端不能检测共享上游偏差（所有后端共享同一prompt设计/问题框架/评估标准时的系统性盲点）"
+          }
+        ],
+        "tool_notes": [
+          {
+            "id": "P8",
+            "name": "Dynamic Workflow并行执行",
+            "strength": "Sp",
+            "label": "Sp"
+          }
+        ],
+        "rejected": [
+          {
+            "id": "P4",
+            "name": "证据等级意识结构性出现",
+            "reason": "6条独立否决理由"
+          },
+          {
+            "id": "P7",
+            "name": "医生的孩子没人治",
+            "reason": "关系方向反了"
+          }
+        ]
+      }
+    },
+    "C5": {
+      "id": "C5",
+      "name": "独立审查SOP",
+      "stability": "I+E",
+      "review_triggers": {
+        "mandatory_nodes": [
+          {
+            "node": "项目Spec完成后",
+            "min_rounds": 1
+          },
+          {
+            "node": "每个Phase产出后",
+            "min_rounds": 1
+          },
+          {
+            "node": "框架文档初稿后",
+            "min_rounds": "1-2"
+          },
+          {
+            "node": "闭合前",
+            "min_rounds": 1
+          }
+        ],
+        "note": "[I]级流程规则，基于本元项目经验；跨项目有效性待独立验证。措辞为建议触发非强制"
+      },
+      "prompt_principles": {
+        "axes": {
+          "fact_axis": {
+            "question": "声称的事实准确吗？源文件确实说了这些吗？",
+            "applies_to": "所有Phase"
+          },
+          "classification_axis": {
+            "question": "归类/命名/结论合理吗？有没有替代解释？",
+            "applies_to": "含概念性判断的Phase"
+          },
+          "cross_project_inference_axis": {
+            "question": "片段之间的横向关联和综合推论合理吗？有没有模板效应、选择偏差或共同来源导致的虚假收敛？",
+            "applies_to": "跨项目综合阶段",
+            "known_blindspot": "事实正确+归类正确+组合错误的第三类错误（如P4的伪收敛）",
+            "checks": [
+              "虚假收敛（共同模板/框架/操作者）",
+              "选择偏差（被排除的负面案例）",
+              "组合错误（片段级正确但推论错误）",
+              "上游偏差（共享prompt设计/问题框架的假独立）"
+            ]
+          }
+        },
+        "design_rules": [
+          "非作者设计：审查prompt必须由非产出作者设计",
+          "反事实强制：要求审查者试图推翻而非检查正确性",
+          "具体化输出：文件:行号级别精确定位",
+          "分级响应：CRITICAL/MAJOR/MINOR三级"
+        ]
+      },
+      "response_matrix": [
+        {
+          "score": "≥7.0",
+          "verdict": "GO"
+        },
+        {
+          "score": "5.5-7.0",
+          "verdict": "GO WITH FIXES"
+        },
+        {
+          "score": "<5.5",
+          "verdict": "NO-GO"
+        }
+      ],
+      "empirical_baseline": {
+        "note": "仅供本元项目参考，不作为外推预期。N=1元项目、4轮审查",
+        "median_first_round_score": 6.05,
+        "range": [
+          5.5,
+          7.2
+        ]
+      },
+      "recoding_gate": {
+        "mandatory_dimensions": [
+          "独有特征计数",
+          "独立审查状态判定",
+          "源项目质量评分"
+        ],
+        "divergence_handling": [
+          {
+            "range": "<10%",
+            "action": "记录一致性"
+          },
+          {
+            "range": "10-20%",
+            "action": "以保守值为准"
+          },
+          {
+            "range": ">20%",
+            "action": "启动第三后端仲裁"
+          }
+        ]
+      }
+    }
+  },
+  "source_projects_summary": [
+    {
+      "id": 1,
+      "name": "形态匹配ETF策略",
+      "status": "闭合",
+      "scale": "大"
+    },
+    {
+      "id": 2,
+      "name": "并购重组案例研究",
+      "status": "闭合",
+      "scale": "大"
+    },
+    {
+      "id": 3,
+      "name": "多模型对照实验",
+      "status": "搁置",
+      "scale": "中"
+    },
+    {
+      "id": 4,
+      "name": "LIT",
+      "status": "闭合",
+      "scale": "中"
+    },
+    {
+      "id": 5,
+      "name": "Agent Harness综述",
+      "status": "闭合",
+      "scale": "中"
+    },
+    {
+      "id": 6,
+      "name": "Small Scale分析",
+      "status": "闭合",
+      "scale": "中"
+    },
+    {
+      "id": 7,
+      "name": "PilotDeck分析",
+      "status": "闭合",
+      "scale": "中"
+    },
+    {
+      "id": 8,
+      "name": "GitNexus分析",
+      "status": "闭合",
+      "scale": "中"
+    },
+    {
+      "id": 9,
+      "name": "Evolver分析",
+      "status": "闭合",
+      "scale": "中"
+    },
+    {
+      "id": 10,
+      "name": "CLAUDE-md生成",
+      "status": "闭合",
+      "scale": "中"
+    },
+    {
+      "id": 11,
+      "name": "BDC2026",
+      "status": "活跃",
+      "scale": "中"
+    },
+    {
+      "id": 12,
+      "name": "claude-code-ultimate-guide",
+      "status": "闭合",
+      "scale": "小"
+    },
+    {
+      "id": 13,
+      "name": "AI协作框架自身",
+      "status": "冻结",
+      "scale": "大",
+      "note": "Phase 6递归自检候选，不计入G5审计源项目证据"
+    }
+  ],
+  "version_upgrade_path": {
+    "current": {
+      "version": "v0.1-trial"
+    },
+    "v0.2_trial": {
+      "condition": "≥1组件新增≥3源项目证据+命题未被证伪+对抗验证存活+偏误已预注册控制+异后端审查≥7.0"
+    },
+    "v0.5_beta": {
+      "condition": "≥3组件达稳定门槛+≥2独立新项目验证+效应量可估计"
+    },
+    "v1.0": {
+      "condition": "全5组件达稳定门槛+≥5独立新项目验证+反例附录完备"
+    }
+  },
+  "g5_audit_summary": {
+    "conclusion": "当前无一模式满足≥3源项目直接证据的稳定组件门槛",
+    "phase5_writing_rule": "全5组件标试行协议。使用三类标签：稳定组件（当前0个）/试行协议/工具注记与审查门禁"
+  }
+}

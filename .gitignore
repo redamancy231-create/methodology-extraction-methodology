@@ -1,0 +1,48 @@
+# Internal tooling
+_workflows/
+_reviews/
+memory/
+dev-logs/
+archive/
+
+# Review prompts (internal instructions with session context)
+prompts/
+
+# Generated binaries and artifacts
+*.docx
+framework_output/main/docx_structure.txt
+framework_output/main/convert_to_docx.py
+framework_output/main/codex_docx_review_*
+
+# Raw message dumps
+*_lastmsg.txt
+*_last_message.txt
+
+# GitNexus (if indexed)
+.gitnexus/
+AGENTS.md
+.claude/
+
+# Non-public evidence cards (anonymized summary in source_projects_summary.md)
+explorations/evidence_card_agent_harness.md
+explorations/evidence_card_bdc2026.md
+explorations/evidence_card_claude_code_ultimate_guide.md
+explorations/evidence_card_claude_md_generation.md
+explorations/evidence_card_evolver.md
+explorations/evidence_card_gitnexus.md
+explorations/evidence_card_lit.md
+explorations/evidence_card_multimodel.md
+explorations/evidence_card_pilotdeck.md
+explorations/evidence_card_small_scale.md
+
+# Internal session tracking (root only — spec/project_status.md is part of the spec)
+/project_status.md
+/completion_pathways.md
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]

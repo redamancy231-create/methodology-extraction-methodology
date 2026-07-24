@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Phase 4 验证后跨项目模式目录",
+    "version": "v0.2",
+    "phase": "4",
+    "model": "DeepSeek-V4-Pro",
+    "generated_date": "2026-06-16",
+    "source_md": "synthesis/phase4_validated_pattern_catalog.md",
+    "actual_usage": {
+      "agents": 17,
+      "tokens_approx": 636000
+    }
+  },
+  "review": {
+    "model": "Qwen3.7-Max",
+    "source": "reviews/qwen_phase4_reverify_report.md",
+    "date": "2026-06-16",
+    "scope": ["P5", "P6", "P7"],
+    "changes": [
+      {
+        "pattern_id": "P6",
+        "phase4_final_strength": "B",
+        "qwen_final_strength": "A-",
+        "merged_final_strength": "A-",
+        "change_type": "upgrade",
+        "reason": "Qwen认为剥离“涌现”叙事后，核心洞见“异后端单轮 > 同后端多轮”有直接经验证据，给A-而非A是因n=1和混杂变量。"
+      },
+      {
+        "pattern_id": "P5",
+        "phase4_final_strength": "B",
+        "qwen_final_strength": "B-",
+        "merged_final_strength": "B-",
+        "change_type": "minor_downgrade",
+        "reason": "Qwen确认提取者效应存在，但将纯提取者效应估为约9.4%，并指出任务规范模糊是不充分考虑的替代解释。"
+      },
+      {
+        "pattern_id": "P7",
+        "phase4_final_strength": null,
+        "qwen_final_strength": null,
+        "merged_final_strength": null,
+        "change_type": "unchanged_rejected",
+        "reason": "Qwen确认P7方向错误，原支撑案例不成立，P7更像由Phase 2评估错误制造的模式。"
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "id": "P1",
+      "name": "Premise Gate：执行scope审查的不溢出效应",
+      "original_strength": "B",
+      "phase4_decision": "DOWNGRADED",
+      "phase4_final_strength": "C+",
+      "merged_final_strength": "C+",
+      "status": "LIMITED",
+      "category": "C+级模式",
+      "claim": "若审查scope默认为执行正确性且无显式premise-review gate，premise-level错误检测延迟显著长于execution-level错误。",
+      "phase4_reason": "4证据中2个被拉伸、1个方向反了。",
+      "operationalization": "作为Premise Gate的弱证据来源，仅可用于提示执行scope审查不会自然溢出到前提审查；不可标为稳定框架组件。"
+    },
+    {
+      "id": "P2",
+      "name": "多后端审查的多样性保险",
+      "original_strength": "B",
+      "phase4_decision": "DOWNGRADED",
+      "phase4_final_strength": "C+",
+      "merged_final_strength": "C+",
+      "status": "LIMITED",
+      "category": "C+级模式",
+      "claim": "多后端可能覆盖更广的错误敏感性空间，但效应大小、方向和最优组合未量化。",
+      "phase4_reason": "二分法被GitNexus反例实证证伪。",
+      "operationalization": "零卷入、多角色、多轮是必要条件；多后端只作为增强项，不单独作为稳定组件。"
+    },
+    {
+      "id": "P3",
+      "name": "方法论资产提炼协议（三级分流+四步提炼）",
+      "original_strength": "A",
+      "phase4_decision": "DOWNGRADED",
+      "phase4_final_strength": "C+",
+      "merged_final_strength": "C+",
+      "status": "LIMITED",
+      "category": "C+级模式",
+      "claim": "项目关闭时对失败和教训执行三级分流，仅LEVEL 3系统性缺陷进入方法论提炼流水线。",
+      "phase4_reason": "事后编号暴露确认偏误。",
+      "operationalization": "可保留为操作协议草案，但必须在新项目中预注册分流标准并记录排除清单。"
+    },
+    {
+      "id": "P4",
+      "name": "证据等级意识结构性出现",
+      "original_strength": "C",
+      "phase4_decision": "REJECTED",
+      "phase4_final_strength": null,
+      "merged_final_strength": null,
+      "status": "REJECTED",
+      "category": "被拒绝的模式",
+      "claim": "证据等级意识在源项目中结构性出现。",
+      "phase4_reason": "事实错误、非独立、同作者+72小时窗口、不同分类维度、选择偏差、替代解释更优。",
+      "operationalization": "不作为跨项目模式写入框架；可作为审查教训说明。"
+    },
+    {
+      "id": "P5",
+      "name": "提取者效应：单编码者系统性倾向",
+      "original_strength": "A",
+      "phase4_decision": "DOWNGRADED",
+      "phase4_final_strength": "B",
+      "qwen_final_strength": "B-",
+      "merged_final_strength": "B-",
+      "status": "CONFIRMED_WITH_LIMITS",
+      "category": "B级模式",
+      "claim": "单一后端对解释性方法论提取存在系统性倾向，DeepSeek偏膨胀，ChatGPT-5.5偏保守。",
+      "phase4_reason": "效应真实但量级夸大，Phase 4估计约10-15%。",
+      "qwen_reason": "纯提取者效应独立估计约9.4%，任务规范模糊和信息访问不对称是重要替代解释。",
+      "operationalization": "建立标准化codebook；仅对独有特征计数、审查状态、源质量评估等高风险维度强制异后端复编码。"
+    },
+    {
+      "id": "P6",
+      "name": "异后端Phase后审查",
+      "original_strength": "A",
+      "phase4_decision": "DOWNGRADED",
+      "phase4_final_strength": "B",
+      "qwen_final_strength": "A-",
+      "merged_final_strength": "A-",
+      "status": "CONFIRMED",
+      "category": "A级模式",
+      "claim": "在方法论或概念归类项目中，每Phase产出后插入一轮异后端独立审查，纠偏价值高于同后端多轮。",
+      "phase4_reason": "核心洞见正确，但“涌现”叙事被剥离。",
+      "qwen_reason": "核心洞见“异后端单轮 > 同后端多轮”有直接经验证据；A-而非A因n=1和混杂变量。",
+      "operationalization": "每Phase后强制至少一轮异后端审查；选择认知距离最大的后端；标准化审查prompt并记录边际贡献曲线。"
+    },
+    {
+      "id": "P7",
+      "name": "医生的孩子没人治",
+      "original_strength": "B",
+      "phase4_decision": "REJECTED",
+      "phase4_final_strength": null,
+      "qwen_final_strength": null,
+      "merged_final_strength": null,
+      "status": "REJECTED",
+      "category": "被拒绝的模式",
+      "claim": "方法论诊断能力强的项目，自文档化反而弱。",
+      "phase4_reason": "关系方向反了，实际为正相关。",
+      "qwen_reason": "LIT和Agent Harness都不构成有效证据；P7更像被评估错误制造的模式。",
+      "operationalization": "不写入框架正文；可作为反教训：先确认两个测量维度是否独立。"
+    },
+    {
+      "id": "P8",
+      "name": "Dynamic Workflow并行执行",
+      "original_strength": "A",
+      "phase4_decision": "DOWNGRADED",
+      "phase4_final_strength": "Sp注记",
+      "merged_final_strength": "Sp注记",
+      "status": "TOOL_NOTE",
+      "category": "工具能力注记",
+      "claim": "拓扑独立、模板同质且可事后批量验证时，并行Workflow可改善吞吐。",
+      "phase4_reason": "N=1，自评循环，平凡论；不构成独立跨项目模式。",
+      "operationalization": "仅作为工具能力注记使用；必须配套异后端审查以控制同模型并行agent同质化偏差。"
+    }
+  ]
+}
