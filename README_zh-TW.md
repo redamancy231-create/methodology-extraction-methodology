@@ -25,7 +25,7 @@
 
 ## 為什麼不成熟
 
-專案自身的 G5 可追溯審計結論：**無一方法論模式滿足 ≥3 個源專案的穩定元件門檻。** 源專案共 22 個——**12 個為對他人開源專案或論文的獨立分析**（Evolver、GitNexus、PilotDeck、Small Scale、Agent Harness、LIT、claude-code-ultimate-guide、claude-md-generation、PocketFlow、NPGS、ml-quant-trading、CrossCheck）、**7 個為自建公開專案**（AI協作框架、claude-skills、docx-pipeline、ETF-pybind11、Independent Review Toolkit、M&A案例、prompt-tdd）、3 個為自建未公開專案。所有專案的提取和審查由同一操作者執行——這個樣本量不足以支撐泛化的方法論提取。
+專案自身的 G5 可追溯審計結論：**無一方法論模式滿足 ≥3 個源專案的穩定元件門檻。** 源專案共 22 個——**11 個為對他人開源專案或論文的獨立分析**（Evolver、GitNexus、PilotDeck、Small Scale、Agent Harness、claude-code-ultimate-guide、claude-md-generation、PocketFlow、NPGS、ml-quant-trading、CrossCheck）、**7 個為自建公開專案**（AI協作框架、claude-skills、docx-pipeline、ETF-pybind11、Independent Review Toolkit、M&A案例、prompt-tdd）、4 個為自建未公開專案。所有專案的提取和審查由同一操作者執行——這個樣本量不足以支撐泛化的方法論提取。
 
 換句話說：我們證明了"這件事有多難"，但還沒有做到"這件事該怎麼做"。
 

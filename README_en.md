@@ -26,7 +26,7 @@ It has a **dual purpose**:
 
 ## Why It Is Immature
 
-The project's own G5 Traceability Audit concluded: **No methodology pattern meets the stability threshold for components, which requires support from ≥3 source projects.** The 22 source projects consist of **12 independent analyses of other people's open-source projects or papers** (Evolver, GitNexus, PilotDeck, Small Scale, Agent Harness, LIT, claude-code-ultimate-guide, claude-md-generation, PocketFlow, NPGS, ml-quant-trading, CrossCheck), **7 author-built public projects** (AI Collaboration Framework, claude-skills, docx-pipeline, ETF-pybind11, Independent Review Toolkit, M&A Case Study, prompt-tdd), and 3 author-built private projects. All extraction and review work was performed by the same operator. This sample is too small to support generalizable methodology extraction.
+The project's own G5 Traceability Audit concluded: **No methodology pattern meets the stability threshold for components, which requires support from ≥3 source projects.** The 22 source projects consist of **11 independent analyses of other people's open-source projects or papers** (Evolver, GitNexus, PilotDeck, Small Scale, Agent Harness, claude-code-ultimate-guide, claude-md-generation, PocketFlow, NPGS, ml-quant-trading, CrossCheck), **7 author-built public projects** (AI Collaboration Framework, claude-skills, docx-pipeline, ETF-pybind11, Independent Review Toolkit, M&A Case Study, prompt-tdd), and 4 author-built private projects. All extraction and review work was performed by the same operator. This sample is too small to support generalizable methodology extraction.
 
 In other words, we proved "how difficult this is," but we have not yet established "how this should be done."
 

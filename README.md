@@ -25,7 +25,7 @@
 
 ## 为什么不成熟
 
-项目自身的 G5 可追溯审计结论：**无一方法论模式满足 ≥3 个源项目的稳定组件门槛。** 源项目共 22 个——**12 个为对他人开源项目或论文的独立分析**（Evolver、GitNexus、PilotDeck、Small Scale、Agent Harness、LIT、claude-code-ultimate-guide、claude-md-generation、PocketFlow、NPGS、ml-quant-trading、CrossCheck）、**7 个为自建公开项目**（AI协作框架、claude-skills、docx-pipeline、ETF-pybind11、Independent Review Toolkit、M&A案例、prompt-tdd）、3 个为自建未公开项目。所有项目的提取和审查由同一操作者执行——这个样本量不足以支撑泛化的方法论提取。
+项目自身的 G5 可追溯审计结论：**无一方法论模式满足 ≥3 个源项目的稳定组件门槛。** 源项目共 22 个——**11 个为对他人开源项目或论文的独立分析**（Evolver、GitNexus、PilotDeck、Small Scale、Agent Harness、claude-code-ultimate-guide、claude-md-generation、PocketFlow、NPGS、ml-quant-trading、CrossCheck）、**7 个为自建公开项目**（AI协作框架、claude-skills、docx-pipeline、ETF-pybind11、Independent Review Toolkit、M&A案例、prompt-tdd）、4 个为自建未公开项目。所有项目的提取和审查由同一操作者执行——这个样本量不足以支撑泛化的方法论提取。
 
 换句话说：我们证明了"这件事有多难"，但还没有做到"这件事该怎么做"。
 

@@ -7,7 +7,7 @@
 
 ## 源项目清单
 
-### 一、外部分析项目（12 个）
+### 一、外部分析项目（11 个）
 
 对他人开源项目或论文的独立分析。按有无独立证据卡分两组：
 
@@ -19,7 +19,7 @@
 | ml-quant-trading | 量化（ML 多因子交易系统 + arXiv 论文） | Yimin Du (initial-d) | [initial-d/ml-quant-trading](https://github.com/initial-d/ml-quant-trading) |
 | NPGS | C++ 游戏/模拟（非 AI 协作项目） | baopinshui | [baopinshui/NPGS](https://github.com/baopinshui/NPGS) |
 
-**无独立证据卡（9 个）** — 分析过程记录在 `reviews/` 审查报告中：
+**无独立证据卡（8 个）** — 分析过程记录在 `reviews/` 审查报告中：
 
 | 项目 | 类型 | 说明 |
 |------|------|------|
@@ -28,7 +28,6 @@
 | claude-md-generation | 方法论批量生成分析 | 分析 12 项目 CLAUDE.md 的生成模式 |
 | Evolver | 论文+代码分析 | 分析 Evolver 论文的方法论和代码架构 |
 | GitNexus | 工具分析 | 分析 GitNexus 代码知识图谱工具 |
-| LIT | 论文分析 | 分析 LLM 厂商技术报告的披露完整性 |
 | PilotDeck | 论文+代码分析 | 分析 PilotDeck 论文的方法论和架构 |
 | PocketFlow | 架构分析 | 分析 PocketFlow 代码架构——后续启发了 prompt-tdd 对照实验 |
 | Small Scale | 论文分析 | 分析 ICLR 论文 Small Scale 的方法论 |
@@ -47,13 +46,14 @@
 | 中国上市公司并购重组成功案例研究 | 学术（多模型学术生产流水线） | [ma-case-study-pipeline](https://github.com/redamancy231-create/ma-case-study-pipeline) |
 | Prompt-TDD Methodology | 方法论/对照实验（案例手册） | [prompt-tdd-methodology](https://github.com/redamancy231-create/prompt-tdd-methodology) |
 
-### 三、自建未公开项目（3 个）
+### 三、自建未公开项目（4 个）
 
 作者自己开发但未上传 GitHub 的项目。
 
 | 项目 | 类型 | 有证据卡 |
 |------|------|:--:|
 | 形态匹配 ETF 策略 | 量化（多头轮动策略） | ✅ |
+| LIT | 方法论（LLM 报告完整性测试——分析他人论文但项目本身未公开） | ❌ |
 | BDC2026 | 量化竞赛 | ❌ |
 | 多模型对照实验 | 方法论/对照实验 | ❌ |
 
