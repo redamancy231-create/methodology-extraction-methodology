@@ -65,7 +65,8 @@ See [`framework_output/main/`](framework_output/main/) for details.
 ```
 ├── README.md                          ← this file
 ├── CLAUDE.md                          ← project constitution (AI collaboration guide)
-├── FORKING.md                         ← forking guide
+├── FORKING.md                         ← forking guide (how to modify)
+├── FORWARD.md                         ← roadmap (where to start)
 ├── project_spec.md                    ← complete S1–S10 spec
 ├── DEV_LOG.md                         ← development log
 │
@@ -203,7 +204,7 @@ This project served as the Protocol 3 trial run for v1.5.1 of the [AI Collaborat
 
 ## Related Files
 
-- [FORKING.md](FORKING.md) — Forking guide (four layers of modification + known limitations)
+- [FORKING.md](FORKING.md) — Forking guide (how to modify — four layers) · [FORWARD.md](FORWARD.md) — Roadmap (where to start — limitations + fix paths + time budget)
 - [minimal-methodology-guide.md](minimal-methodology-guide.md) — Minimal methodology documentation guide (for people who "use AI for projects but do not document the process")
 - [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution guidelines
 - [CITATION.cff](CITATION.cff) — Citation information

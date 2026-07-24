@@ -64,7 +64,8 @@
 ```
 ├── README.md                          ← 本文件
 ├── CLAUDE.md                          ← 项目宪法（AI 协作指南）
-├── FORKING.md                         ← Fork 指南
+├── FORKING.md                         ← Fork 指南（如何修改）
+├── FORWARD.md                         ← 推进路线图（从哪里开始）
 ├── project_spec.md                    ← S1-S10 完整 Spec
 ├── DEV_LOG.md                         ← 开发日志
 │
@@ -202,7 +203,7 @@
 
 ## 相关文件
 
-- [FORKING.md](FORKING.md) — Fork 指南（四层修改方向 + 已知局限）
+- [FORKING.md](FORKING.md) — Fork 指南（如何修改——四层修改方向）· [FORWARD.md](FORWARD.md) — 推进路线图（从哪里开始——已知局限 + 修复路径 + 时间预算）
 - [minimal-methodology-guide.md](minimal-methodology-guide.md) — 最小方法论文档指南（面向"用AI做项目但没记录过程"的人）
 - [CONTRIBUTING.md](CONTRIBUTING.md) — 贡献指南
 - [CITATION.cff](CITATION.cff) — 引用信息

@@ -64,7 +64,8 @@
 ```
 ├── README.md                          ← 本檔案
 ├── CLAUDE.md                          ← 專案憲法（AI 協作指南）
-├── FORKING.md                         ← Fork 指南
+├── FORKING.md                         ← Fork 指南（如何修改）
+├── FORWARD.md                         ← 推進路線圖（從哪裡開始）
 ├── project_spec.md                    ← S1-S10 完整 Spec
 ├── DEV_LOG.md                         ← 開發日誌
 │
@@ -202,7 +203,7 @@
 
 ## 相關檔案
 
-- [FORKING.md](FORKING.md) — Fork 指南（四層修改方向 + 已知侷限）
+- [FORKING.md](FORKING.md) — Fork 指南（如何修改——四層修改方向）· [FORWARD.md](FORWARD.md) — 推進路線圖（從哪裡開始——已知侷限 + 修復路徑 + 時間預算）
 - [minimal-methodology-guide.md](minimal-methodology-guide.md) — 最小方法論文件指南（面向"用AI做專案但沒記錄過程"的人）
 - [CONTRIBUTING.md](CONTRIBUTING.md) — 貢獻指南
 - [CITATION.cff](CITATION.cff) — 引用資訊
