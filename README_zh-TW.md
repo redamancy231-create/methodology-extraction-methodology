@@ -190,17 +190,7 @@
 
 ## 關聯專案
 
-| 專案 | 關係 |
-|------|------|
-| [**AI 協作框架**](https://github.com/redamancy231-create/ai-collaboration-framework) | **方法論上游** — 本專案是框架 Protocol 3 的試跑對象 |
-| [**claude-skills**](https://github.com/redamancy231-create/claude-skills) | **方法論文獻源** — 三個 Skill 的提取結果已納入本框架（證據卡 #11） |
-| [**Independent Review Toolkit**](https://github.com/redamancy231-create/independent-review-toolkit) | **審查方法來源** — 本專案的獨立審查流程使用該工具包 SOP |
-| [**Prompt-TDD Methodology**](https://github.com/redamancy231-create/prompt-tdd-methodology) | **同系專案** — 對照實驗方法論案例手冊，共享多後端審查實證 |
-| [**Methodology Handbook**](https://github.com/redamancy231-create/methodology-handbook) | **同系專案** — 50 條 AI 協作實戰教訓速查，Skill 設計協議的經驗來源 |
-| [**DOCX Pipeline**](https://github.com/redamancy231-create/docx-pipeline) | **同系專案** — Markdown → 中文 DOCX 流水線（提取框架方法論源之一） |
-| [**ETF Pattern Match — pybind11**](https://github.com/redamancy231-create/etf-pattern-match-pybind11) | **同系專案** — C++20/pybind11 量化加速，審查鏈實證源 |
-| [**M&A Case Study Pipeline**](https://github.com/redamancy231-create/ma-case-study-pipeline) | **同系專案** — 8 階段多模型學術生產流水線，證據卡源專案 |
-
+更多專案請見 [個人主頁](https://github.com/redamancy231-create/redamancy231-create)
 ## 相關檔案
 
 - [FORKING.md](FORKING.md) — Fork 指南（如何修改——四層修改方向）· [FORWARD.md](FORWARD.md) — 推進路線圖（從哪裡開始——已知侷限 + 修復路徑 + 時間預算）
