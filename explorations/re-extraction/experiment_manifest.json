@@ -1,0 +1,110 @@
+{
+  "experiments": [
+    {
+      "run_id": 1,
+      "project": "NPGS",
+      "category": "external_analysis",
+      "deepseek_level": "D",
+      "gpt_level": "C",
+      "level_difference": 1,
+      "prompt_file": "prompts/re-extract_npgs_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_npgs_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 2,
+      "project": "ml-quant-trading",
+      "category": "external_analysis",
+      "deepseek_level": "C",
+      "gpt_level": "B",
+      "level_difference": 1,
+      "prompt_file": "prompts/re-extract_ml-quant-trading_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_ml-quant-trading_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 3,
+      "project": "CrossCheck",
+      "category": "external_analysis",
+      "deepseek_level": "C",
+      "gpt_level": "B",
+      "level_difference": 1,
+      "prompt_file": "prompts/re-extract_crosscheck_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_crosscheck_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 4,
+      "project": "ai-collaboration-framework",
+      "category": "own_public",
+      "deepseek_level": "A",
+      "gpt_level": "B",
+      "level_difference": -1,
+      "prompt_file": "prompts/re-extract_ai-framework_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_ai-framework_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 5,
+      "project": "claude-skills",
+      "category": "own_public",
+      "deepseek_level": "B",
+      "gpt_level": "B",
+      "level_difference": 0,
+      "prompt_file": "prompts/re-extract_claude-skills_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_claude-skills_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 6,
+      "project": "docx-pipeline",
+      "category": "own_public",
+      "deepseek_level": "B",
+      "gpt_level": "B",
+      "level_difference": 0,
+      "prompt_file": "prompts/re-extract_docx-pipeline_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_docx-pipeline_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 7,
+      "project": "etf-pattern-match-pybind11",
+      "category": "own_public",
+      "deepseek_level": "B",
+      "gpt_level": "B",
+      "level_difference": 0,
+      "prompt_file": "prompts/re-extract_etf-pybind11_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_etf-pybind11_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 8,
+      "project": "independent-review-toolkit",
+      "category": "own_public",
+      "deepseek_level": "B",
+      "gpt_level": "B",
+      "level_difference": 0,
+      "prompt_file": "prompts/re-extract_review-toolkit_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_review-toolkit_gpt56.md",
+      "extraction_date": "2026-07-24"
+    },
+    {
+      "run_id": 9,
+      "project": "prompt-tdd-methodology",
+      "category": "own_public",
+      "deepseek_level": "B",
+      "gpt_level": "B",
+      "level_difference": 0,
+      "prompt_file": "prompts/re-extract_prompt-tdd_gpt56.md",
+      "output_file": "explorations/re-extraction/re-extract_prompt-tdd_gpt56.md",
+      "extraction_date": "2026-07-24"
+    }
+  ],
+  "summary": {
+    "external_projects_count": 3,
+    "own_projects_count": 6,
+    "gpt_upgraded_count": 3,
+    "gpt_downgraded_count": 1,
+    "gpt_same_count": 5
+  }
+}

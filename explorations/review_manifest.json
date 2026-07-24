@@ -1,0 +1,129 @@
+{
+  "reviews": [
+    {
+      "review_id": "R01",
+      "phase": "HG-0",
+      "backend": "GPT-5.5",
+      "reviewer_model": "Codex CLI / ChatGPT-5.5",
+      "formal": true,
+      "report_file": "hg0_codex_review_report.md",
+      "findings_count": 12,
+      "json_companion": null
+    },
+    {
+      "review_id": "R02",
+      "phase": "Phase 2",
+      "backend": "Kimi-K2.7",
+      "reviewer_model": "Kimi-K2.7-Code (via Kimi Code CLI)",
+      "formal": true,
+      "report_file": "kimi_phase2_review_report.md",
+      "findings_count": 5,
+      "json_companion": "kimi_phase2_review_report.json"
+    },
+    {
+      "review_id": "R03",
+      "phase": "Phase 3",
+      "backend": "GPT-5.5",
+      "reviewer_model": "ChatGPT-5.5 (via Codex CLI)",
+      "formal": true,
+      "report_file": "phase3_codex_review_report.md",
+      "findings_count": 5,
+      "json_companion": null
+    },
+    {
+      "review_id": "R04",
+      "phase": "Phase 4",
+      "backend": "Qwen3.7-Max",
+      "reviewer_model": "Qwen (via Qwen Code CLI)",
+      "formal": true,
+      "report_file": "qwen_phase4_review_report.md",
+      "findings_count": 4,
+      "json_companion": "qwen_phase4_review_report.json"
+    },
+    {
+      "review_id": "R05",
+      "phase": "Phase 4",
+      "backend": "Qwen3.7-Max",
+      "reviewer_model": "Qwen (via Qwen Code CLI)",
+      "formal": false,
+      "report_file": "qwen_phase4_reverify_report.md",
+      "findings_count": 3,
+      "json_companion": "qwen_phase4_reverify_report.json"
+    },
+    {
+      "review_id": "R06",
+      "phase": "Phase 5",
+      "backend": "GPT-5.5",
+      "reviewer_model": "ChatGPT-5.5 (via Codex CLI, session 019ecfa3)",
+      "formal": true,
+      "report_file": "phase5_codex_crosscheck.md",
+      "findings_count": 17,
+      "json_companion": null
+    },
+    {
+      "review_id": "R07",
+      "phase": "Phase 5",
+      "backend": "Qwen3.7-Max",
+      "reviewer_model": "Qwen (via Qwen Code CLI)",
+      "formal": true,
+      "report_file": "phase5_qwen_independent_review.md",
+      "findings_count": 16,
+      "json_companion": null
+    },
+    {
+      "review_id": "R08",
+      "phase": "Phase 6",
+      "backend": "Kimi-K2.7",
+      "reviewer_model": "Kimi-K2.7-Code (via Kimi Code CLI)",
+      "formal": true,
+      "report_file": "kimi_phase6_factcheck_report.md",
+      "findings_count": 4,
+      "json_companion": null
+    },
+    {
+      "review_id": "R09",
+      "phase": "Phase 7",
+      "backend": "Qwen3.7-Max",
+      "reviewer_model": "Qwen3-Max (via Qwen Code CLI)",
+      "formal": true,
+      "report_file": "phase7_qwen_final_review_report.md",
+      "findings_count": 9,
+      "json_companion": "phase7_qwen_final_review_report.json"
+    },
+    {
+      "review_id": "R10",
+      "phase": "Phase 7.5",
+      "backend": "GLM-5",
+      "reviewer_model": "GLM-5（智谱 AI，经 DashScope API，Qwen Code CLI 路由）",
+      "formal": true,
+      "report_file": "phase7.5_glm5_methodology_value_review.md",
+      "findings_count": 8,
+      "json_companion": null
+    },
+    {
+      "review_id": "R11",
+      "phase": "Phase 7.6",
+      "backend": "GPT-5.5",
+      "reviewer_model": "Codex / GPT-5（Codex CLI 环境）",
+      "formal": true,
+      "report_file": "phase7.6_codex_targeted_review_report.md",
+      "findings_count": 8,
+      "json_companion": null
+    },
+    {
+      "review_id": "R12",
+      "phase": "Phase 8",
+      "backend": "Kimi-K2.7",
+      "reviewer_model": "Kimi (Kimi Code CLI)",
+      "formal": false,
+      "report_file": "kimi_phase8_factcheck_report.md",
+      "findings_count": 5,
+      "json_companion": null
+    }
+  ],
+  "summary": {
+    "review_round_count": 10,
+    "review_report_count": 12,
+    "review_file_count": 17
+  }
+}

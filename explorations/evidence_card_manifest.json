@@ -1,0 +1,123 @@
+[
+  {
+    "id": "E01",
+    "project_name": "ai-collaboration-framework",
+    "category": "own_public",
+    "evidence_level": "A",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_ai_framework.md",
+    "components_extractable": "6.5/8",
+    "tier": "主要提取"
+  },
+  {
+    "id": "E02",
+    "project_name": "claude-skills",
+    "category": "own_public",
+    "evidence_level": "B",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-24",
+    "filename": "evidence_card_claude_skills.md",
+    "components_extractable": "5/6",
+    "tier": "主要提取"
+  },
+  {
+    "id": "E03",
+    "project_name": "CrossCheck",
+    "category": "external_analysis",
+    "evidence_level": "C",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_crosscheck.md",
+    "components_extractable": "5.5/8",
+    "tier": "部分提取"
+  },
+  {
+    "id": "E04",
+    "project_name": "docx-pipeline",
+    "category": "own_public",
+    "evidence_level": "B",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_docx_pipeline.md",
+    "components_extractable": "6.5/8",
+    "tier": "主要提取"
+  },
+  {
+    "id": "E05",
+    "project_name": "形态匹配ETF策略",
+    "category": "own_private",
+    "evidence_level": null,
+    "extraction_model": null,
+    "extraction_date": null,
+    "filename": "evidence_card_etf.md",
+    "components_extractable": null,
+    "tier": null
+  },
+  {
+    "id": "E06",
+    "project_name": "etf-pattern-match-pybind11",
+    "category": "own_public",
+    "evidence_level": "B",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_etf_pybind11.md",
+    "components_extractable": "7/8",
+    "tier": "主要提取"
+  },
+  {
+    "id": "E07",
+    "project_name": "independent-review-toolkit",
+    "category": "own_public",
+    "evidence_level": "B",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_independent_review_toolkit.md",
+    "components_extractable": "6/7",
+    "tier": "主要提取"
+  },
+  {
+    "id": "E08",
+    "project_name": "中国上市公司并购重组成功案例研究",
+    "category": "own_public",
+    "evidence_level": null,
+    "extraction_model": null,
+    "extraction_date": null,
+    "filename": "evidence_card_ma_research.md",
+    "components_extractable": null,
+    "tier": null
+  },
+  {
+    "id": "E09",
+    "project_name": "ml-quant-trading",
+    "category": "external_analysis",
+    "evidence_level": "C",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_ml_quant_trading.md",
+    "components_extractable": "5.5/8",
+    "tier": "部分提取"
+  },
+  {
+    "id": "E10",
+    "project_name": "NPGS (Neumann Probe in Galaxy Simulator)",
+    "category": "external_analysis",
+    "evidence_level": "D",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_npgs_external.md",
+    "components_extractable": "3/8",
+    "tier": "痕迹提取"
+  },
+  {
+    "id": "E11",
+    "project_name": "prompt-tdd-methodology",
+    "category": "own_public",
+    "evidence_level": "B",
+    "extraction_model": "DeepSeek-V4-Pro (via Claude Code CLI)",
+    "extraction_date": "2026-07-23",
+    "filename": "evidence_card_prompt_tdd.md",
+    "components_extractable": "6/7",
+    "tier": "主要提取"
+  }
+]
