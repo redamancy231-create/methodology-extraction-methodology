@@ -8,7 +8,7 @@ date-released: "2026-07-23"
 version: "v0.1-trial"
 url: "https://github.com/redamancy231-create/methodology-extraction-methodology"
 repository: "https://github.com/redamancy231-create/methodology-extraction-methodology"
-abstract: "从 19 个项目（含自有 AI 协作项目、外部开源项目、学术压力测试）中系统提取可复用方法论模式的实验记录。包含 10 轮正式审查实证（4 后端）、58 项发现、G5 可追溯审计和 5 档可提取率梯度。"
+abstract: "从 22 个源项目（11 外部分析 + 7 自建公开 + 4 自建未公开）中系统提取可复用方法论模式的实验记录。包含 10 轮正式审查实证（4 后端）、G5 可追溯审计和四层级定性提取梯度。v0.1 trial，不成熟。"
 keywords:
   - "AI collaboration"
   - "methodology extraction"
