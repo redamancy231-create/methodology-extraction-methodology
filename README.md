@@ -188,18 +188,10 @@
 
 本项目是 [AI 协作项目全生命周期框架](https://github.com/redamancy231-create/ai-collaboration-framework) v1.5.1 的 Protocol 3 试跑对象。父框架此后已演进至更高版本。本项目是闭合时刻的历史快照，部分版本引用可能滞后。
 
+
 ## 关联项目
 
-| 项目 | 关系 |
-|------|------|
-| [**AI 协作框架**](https://github.com/redamancy231-create/ai-collaboration-framework) | **方法论上游** — 本项目是框架 Protocol 3 的试跑对象 |
-| [**claude-skills**](https://github.com/redamancy231-create/claude-skills) | **方法论文献源** — 三个 Skill 的提取结果已纳入本框架（证据卡 #11） |
-| [**Independent Review Toolkit**](https://github.com/redamancy231-create/independent-review-toolkit) | **审查方法来源** — 本项目的独立审查流程使用该工具包 SOP |
-| [**Prompt-TDD Methodology**](https://github.com/redamancy231-create/prompt-tdd-methodology) | **同系项目** — 对照实验方法论案例手册，共享多后端审查实证 |
-| [**Methodology Handbook**](https://github.com/redamancy231-create/methodology-handbook) | **同系项目** — 50 条 AI 协作实战教训速查，Skill 设计协议的经验来源 |
-| [**DOCX Pipeline**](https://github.com/redamancy231-create/docx-pipeline) | **同系项目** — Markdown → 中文 DOCX 管道（提取框架方法论源之一） |
-| [**ETF Pattern Match — pybind11**](https://github.com/redamancy231-create/etf-pattern-match-pybind11) | **同系项目** — C++20/pybind11 量化加速，审查链实证源 |
-| [**M&A Case Study Pipeline**](https://github.com/redamancy231-create/ma-case-study-pipeline) | **同系项目** — 8 阶段多模型学术生产流水线，证据卡源项目 |
+更多项目请见 [个人主页](https://github.com/redamancy231-create/redamancy231-create)
 
 ## 相关文件
 
