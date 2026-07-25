@@ -22,7 +22,7 @@
 ## 源项目证据
 
 - [explorations/source_projects_summary.md](explorations/source_projects_summary.md) — 20 源项目匿名化汇总 + 梯度表
-- [explorations/evidence_card_etf.md](explorations/evidence_card_etf.md) — 形态匹配 ETF 策略（原始）
+- [explorations/evidence_card_etf.md](explorations/evidence_card_etf.md) — 量化策略项目 A（原始）
 - [explorations/evidence_card_etf_pybind11.md](explorations/evidence_card_etf_pybind11.md) — ETF-pybind11 重构（2026-07-23 更新提取）
 - [explorations/evidence_card_ma_research.md](explorations/evidence_card_ma_research.md) — M&A 案例研究
 - [explorations/evidence_card_docx_pipeline.md](explorations/evidence_card_docx_pipeline.md) — DOCX Pipeline

@@ -98,15 +98,15 @@
 - M1: 最小证据包协议写入 evaluation_plan.md §3.1
 - M2: 证据卡模板+证据等级(A/B/C/D)写入 evaluation_plan.md §3.2-3.3
 - M3: Phase 4进入条件（≥8/12证据卡+覆盖大/中/小）写入 evaluation_plan.md §3.5
-- M4: BDC2026标记为活跃边界案例，降低归纳权重
+- M4: 量化竞赛项目 C标记为活跃边界案例，降低归纳权重
 - M5: 独立审查红线从<4.0提高至分级判定(<5.5 NO-GO / 5.5-7.0修订后GO / ≥7.0 GO)
 - S1-S7: C1/C3/C5/C8指标修订 + 新增S4红线6-8 + Phase 6边界硬化
 - 修订文件: success_criteria.md / evaluation_plan.md / project_spec.md / risk_register.md
 
 **13:40** — HG-0通过，Phase 2启动。三批Workflow并行启动：
-- Batch 1 (wf_063ea6a8): 形态匹配ETF + 并购重组 + 多模型对照实验
-- Batch 2 (wf_c0874676): LIT + Agent Harness + Small Scale + PilotDeck + GitNexus + Evolver
-- Batch 3 (wf_fe5e128c): CLAUDE-md-generation + BDC2026 + claude-code-ultimate-guide + AI框架自身
+- Batch 1 (wf_063ea6a8): 量化策略项目 A + 并购重组 + 对照实验项目 D
+- Batch 2 (wf_c0874676): 方法论评估项目 B + Agent Harness + Small Scale + PilotDeck + GitNexus + Evolver
+- Batch 3 (wf_fe5e128c): CLAUDE-md-generation + 量化竞赛项目 C + claude-code-ultimate-guide + AI框架自身
 每项目按最小证据包协议(5层)产出证据卡，含A/B/C/D证据等级。
 
 **13:50** — Phase 2全部完成。三批Workflow并行执行完毕：
@@ -118,7 +118,7 @@
 **14:05** — Kimi-K2.7-Code 独立审查完成（5.9/10, GO WITH FIXES）。四项强制修复执行：
 - 修正1: 并购重组 playbook v1.2 确认→从"嵌入式"→#1(7.6)，与PilotDeck并列
 - 修正2: Evolver 9.4→6.0(-3.4)，源项目质量折扣0.6。"六步闭环"无文本支撑确认
-- 修正3: LIT 5.0→5.6(+0.6)，framework.md高度结构化。ETF→6.0
+- 修正3: 方法论评估项目 B 5.0→5.6(+0.6)，framework.md高度结构化。ETF→6.0
 - 修正4: 多维rubric(D1-D6+源项目折扣)替代单点排名
 - 详见 synthesis/phase2_kimi_corrections.md
 
@@ -182,7 +182,7 @@
 - G7: HG-0 Codex审查报告 → reviews/hg0_codex_review_report.md
 
 **16:10** — G1/G2/G3/G5 完成，G4执行：
-- G1: 12张证据卡已持久化到 `explorations/evidence_card_*.md`，含BDC2026活跃边界和CLAUDE-md-generation入口缺失说明
+- G1: 12张证据卡已持久化到 `explorations/evidence_card_*.md`，含量化竞赛项目 C活跃边界和CLAUDE-md-generation入口缺失说明
 - G2: Phase 3完整逐格矩阵已持久化到 `synthesis/phase3_full_comparison_matrix.md`，修正GitNexus独立审查状态混淆和独有特征膨胀
 - G3: Phase 4模式目录JSON双件已创建，合并Qwen复验证：P6 B→A-、P5 B→B-、P7继续REJECTED
 - G5: 模式→源项目可追溯性审计已创建；结论是当前P1-P6/P8均不得无条件标为“跨源项目稳定组件”

@@ -734,7 +734,7 @@
   "source_projects_summary": [
     {
       "id": 1,
-      "name": "形态匹配ETF策略",
+      "name": "量化策略项目 A",
       "status": "闭合",
       "scale": "大"
     },
@@ -746,7 +746,7 @@
     },
     {
       "id": 3,
-      "name": "多模型对照实验",
+      "name": "对照实验项目 D",
       "status": "搁置",
       "scale": "中"
     },
@@ -794,7 +794,7 @@
     },
     {
       "id": 11,
-      "name": "BDC2026",
+      "name": "量化竞赛项目 C",
       "status": "活跃",
       "scale": "中"
     },

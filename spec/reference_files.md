@@ -33,17 +33,17 @@
 
 | # | 项目 | 路径 | CLAUDE.md |
 |---|------|------|-----------|
-| 1 | 形态匹配ETF策略 | `形态匹配ETF策略项目 ` | ✅ |
+| 1 | 量化策略项目 A | `量化策略项目 A ` | ✅ |
 | 2 | 并购重组案例研究 | `并购重组案例研究项目 ` | ✅ |
-| 3 | 多模型对照实验 | `多模型对照实验项目 ` | ✅ |
-| 4 | LIT | `LIT项目 ` | ✅ |
+| 3 | 对照实验项目 D | `对照实验项目 D ` | ✅ |
+| 4 | 方法论评估项目 B | `方法论评估项目 B ` | ✅ |
 | 5 | Agent Harness综述 | `Agent Harness项目 ` | ✅ |
 | 6 | Small Scale分析 | `Small Scale项目 ` | ✅ |
 | 7 | PilotDeck分析 | `PilotDeck项目 ` | ✅ |
 | 8 | GitNexus分析 | `GitNexus项目 ` | ✅ |
 | 9 | Evolver分析 | `Evolver项目 ` | ✅ |
 | 10 | CLAUDE-md-generation | `CLAUDE-md-generation项目 ` | ✅ |
-| 11 | BDC2026 | `BDC2026项目 ` | ✅ |
+| 11 | 量化竞赛项目 C | `量化竞赛项目 C ` | ✅ |
 | 12 | claude-code-ultimate-guide | `claude-code-ultimate-guide项目 ` | ✅ |
 
 ## 关键工具路径

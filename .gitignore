@@ -1,6 +1,7 @@
 # Internal tooling
 _workflows/
 _reviews/
+_anonymize.py
 memory/
 dev-logs/
 archive/

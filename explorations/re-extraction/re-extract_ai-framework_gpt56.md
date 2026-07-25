@@ -232,7 +232,7 @@ CLAUDE.md 不只是项目简介，而是一个面向 AI Agent 的执行控制面
 - 仓库包含 provenance 勘误、审查档案、Prompt、last messages、retrospects、研究材料、外部依赖登记表和 reference_files.md。
 - VERSION、OPEN §1.6、MD 权威正文分别承担单一事实源职责；JSON/DOCX 被定义为派生物。
 - inventory.csv、版本一致性脚本、翻译漂移 CI 和跨仓库传播表承担机械或人工的引用一致性检查。
-- 跨项目行为制约把若干框架章节与其来源项目及证据上限绑定，例如 Evolver 来源只能维持较低证据等级，PocketFlow/prompt-tdd 不得超出实验覆盖范围，BDC2026 的失败教训不得被弱化。
+- 跨项目行为制约把若干框架章节与其来源项目及证据上限绑定，例如 Evolver 来源只能维持较低证据等级，PocketFlow/prompt-tdd 不得超出实验覆盖范围，量化竞赛项目 C 的失败教训不得被弱化。
 
 ### 可提取的方法论特征
 
